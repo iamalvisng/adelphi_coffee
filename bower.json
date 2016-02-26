@@ -1,0 +1,22 @@
+{
+  "name": "adelphi_coffee",
+  "homepage": "https://github.com/vizFlux/adelphi_coffee",
+  "authors": [
+    "Alvis <viz.flux@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.6"
+  }
+}
