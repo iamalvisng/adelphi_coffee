@@ -30,7 +30,8 @@ gulp.task('scripts', function() {
   return gulp.src([
 		'src/scripts/*.js',
     'bower_components/jquery/dist/jquery.js',
-    'bower_components/bootstrap-sass/assets/javascripts/bootstrap.js'
+    'bower_components/bootstrap-sass/assets/javascripts/bootstrap.js',
+		'bower_components/unslider/dist/js/unslider-min.js'
 	])
     .pipe($.uglify())
     .pipe(gulp.dest('dist/js'))

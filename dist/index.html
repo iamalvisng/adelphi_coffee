@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="css/app.css">
     </head>
     <body>
-        <nav class="navbar navbar-default">
+        <nav class="navbar">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
@@ -40,9 +40,6 @@
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a href="#">F</a>
-                        </li>
-                        <li>
                             <a href="#">T</a>
                         </li>
                         <li>
@@ -52,11 +49,113 @@
                 </div>
                 <!-- /.navbar-collapse -->
             </div>
-            <!-- /.container-fluid -->
+            <!-- /.container -->
         </nav>
+        <!-- /nav -->
+
+        <div class="container">
+            <div class="jumbotron">
+                <h1>A new experience</h1>
+                <p>
+                    A journey towards our flagship cafe.<br>
+                    A sip is memorable and a taste is beyond imagination.
+                </p>
+                <a href="#">Arrow down</a>
+            </div>
+        </div>
+
+        <div class="container story">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 story__details">
+                    <h2>Our story</h2>
+                    <p>
+                        The humble beginnings of Adelphi & Co...Proin gravida nibh velh velit aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum.
+                    </p>
+                    <a href="#">The untold story
+                        <span>Arrow right</span>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-6 story__moment">
+                    <img class="img-responsive" src="https://images.unsplash.com/photo-1455146106369-1e31beb07fce?crop=entropy&dpr=2&fit=crop&fm=jpg&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1200"/>
+                </div>
+            </div>
+        </div>
+        <!-- /.story -->
+
+        <!-- <div class="container experience">
+            <div class="row">
+                <div class="experience__slideshow">
+                    <ul>
+                        <li>
+                            <h2>The experience</h2>
+                            <p>
+                                Het vlaggenschip waar we zo fier op zijn, blijft ons sterproduct. Ambachtelijke garnalenkroketten zoals het hoort: zuiver en zalig. Aan u om ze goed te bakken.
+                            </p>
+                        </li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="container">
+            <div id="myCarousel" class="carousel slide">
+
+                <div class="carousel-inner">
+                    <article class="item active">
+                        <img src="http://placehold.it/1200x440/cccccc/ffffff">
+                        <div class="carousel-caption">
+                            <h3>Headline</h3>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                            <p>
+                                <a class="btn btn-info btn-sm">Read More</a>
+                            </p>
+                        </div>
+                    </article>
+                    <article class="item">
+                        <img src="http://placehold.it/1200x440/999999/cccccc">
+                        <div class="carousel-caption">
+                            <h3>Headline</h3>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                            <p>
+                                <a class="btn btn-info btn-sm">Read More</a>
+                            </p>
+                        </div>
+                    </article>
+                    <article class="item">
+                        <img src="http://placehold.it/1200x440/dddddd/333333">
+                        <div class="carousel-caption">
+                            <h3>Headline</h3>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                            <p>
+                                <a class="btn btn-info btn-sm">Read More</a>
+                            </p>
+                        </div>
+                    </article>
+                </div>
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <!-- Controls -->
+                <!-- <div class="carousel-controls">
+                    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                        <span class="fa fa-angle-double-left"></span>
+                    </a>
+                    <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                        <span class="fa fa-angle-double-right"></span>
+                    </a>
+                </div> -->
+            </div>
+        </div>
 
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.js"></script>
+        <script src="js/unslider-min.js" c></script>
         <script src="js/app.js"></script>
     </body>
 </html>
