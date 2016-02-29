@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('#myCarousel').carousel({
-		interval:   4000
-	});
+    $(".owl-carousel").owlCarousel({
+        items: 1
+    });
 });

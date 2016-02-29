@@ -4,7 +4,8 @@ var reload = browserSync.reload;
 var $    = require('gulp-load-plugins')();
 
 var sassPaths = [
-  'bower_components/bootstrap-sass/assets/stylesheets'
+  'bower_components/bootstrap-sass/assets/stylesheets',
+  'src/scss/vendors/owl.carousel'
 ];
 
 var jspPaths = [
@@ -26,12 +27,23 @@ gulp.task('reload', function() {
   browserSync.reload();
 });
 
+
+gulp.task('images', function() {
+	gulp.src('src/images/**/*')
+	.pipe($.imagemin({
+		optimizationLevel: 3,
+		progressive: true,
+		interlaced: true
+	}))
+	.pipe(gulp.dest('dist/images'));
+});
+
+
 gulp.task('scripts', function() {
   return gulp.src([
 		'src/scripts/*.js',
     'bower_components/jquery/dist/jquery.js',
-    'bower_components/bootstrap-sass/assets/javascripts/bootstrap.js',
-		'bower_components/unslider/dist/js/unslider-min.js'
+    'bower_components/bootstrap-sass/assets/javascripts/bootstrap.js'
 	])
     .pipe($.uglify())
     .pipe(gulp.dest('dist/js'))

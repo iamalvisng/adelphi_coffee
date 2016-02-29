@@ -1,1 +1,10 @@
-//3rd-party styles, mixins, etc.
+// 3rd-party styles, mixins, etc.
+// *Interesting findings*
+// I wanted to include owl.theme & owl.carousel into the project.
+// However it will be complicated to write another return in gulpfile.js
+// under sass task just for these tiny plugins
+// What I did is to simply include vendors/owl.carousel into the sassPath
+// and what I need to do is just including these styesheets by using @import
+
+@import "owl.theme.default.scss";
+@import "owl.carousel/owl.carousel";

@@ -1,1 +1,1 @@
-$(document).ready(function(){$("#myCarousel").carousel({interval:4e3})});
+$(document).ready(function(){$(".owl-carousel").owlCarousel({items:1})});

@@ -19,7 +19,7 @@
                     </button>
                 </div>
                 <div class="brand">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="index.html">
                         <img class="brand__logo" alt="Brand" src="http://placehold.it/350x50">
                     </a>
                 </div>
@@ -27,15 +27,15 @@
                 <div class="collapse navbar-collapse" id="main-nav">
                     <ul class="nav navbar-nav">
                         <li class="active">
-                            <a href="#">Home
+                            <a href="index.html">Home
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
                         <li>
-                            <a href="#">About</a>
+                            <a href="about.html">About</a>
                         </li>
                         <li>
-                            <a href="#">Menu</a>
+                            <a href="menu.html">Menu</a>
                         </li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
@@ -53,16 +53,17 @@
         </nav>
         <!-- /nav -->
 
-        <div class="container">
+        <div class="container hero">
             <div class="jumbotron">
                 <h1>A new experience</h1>
                 <p>
-                    A journey towards our flagship cafe.<br>
+                    A journey towards our flagship cafe.<br />
                     A sip is memorable and a taste is beyond imagination.
                 </p>
                 <a href="#">Arrow down</a>
             </div>
         </div>
+        <!-- ./hero -->
 
         <div class="container story">
             <div class="row">
@@ -82,80 +83,104 @@
         </div>
         <!-- /.story -->
 
-        <!-- <div class="container experience">
-            <div class="row">
-                <div class="experience__slideshow">
-                    <ul>
-                        <li>
-                            <h2>The experience</h2>
-                            <p>
-                                Het vlaggenschip waar we zo fier op zijn, blijft ons sterproduct. Ambachtelijke garnalenkroketten zoals het hoort: zuiver en zalig. Aan u om ze goed te bakken.
-                            </p>
-                        </li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
+        <div class="container experience">
+            <div class="owl-carousel">
+                <div class="experience__slide">
+                    <img src="images/coffee-1.jpg" alt="" />
+                    <div class="col-md-6 experience__slide--content">
+                        <h2 class="experience__slide--title">The experience</h2>
+                        <p class="experience__slide--caption">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                </div>
+                <div class="experience__slide">
+                    <img src="images/coffee-2.jpg" alt="" />
+                    <div class="col-md-6 experience__slide--content">
+                        <h2 class="experience__slide--title">The experience</h2>
+                        <p class="experience__slide--caption">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                </div>
+                <div class="experience__slide">
+                    <img src="images/coffee-3.jpg" alt="" />
+                    <div class="col-md-6 experience__slide--content">
+                        <h2 class="experience__slide--title">The experience</h2>
+                        <p class="experience__slide--caption">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                </div>
+                <div class="experience__slide">
+                    <img src="images/coffee-4.jpg" alt="" />
+                    <div class="col-md-6 experience__slide--content">
+                        <h2 class="experience__slide--title">The experience</h2>
+                        <p class="experience__slide--caption">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div> -->
+        </div>
+        <!-- ./experience -->
+
+        <div class="container menu">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <img class="img-responsive" src="https://images.unsplash.com/photo-1455146106369-1e31beb07fce?crop=entropy&dpr=2&fit=crop&fm=jpg&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1200" alt="" />
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <h1>Our Menu</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <p>
+                        Check out our <a href="#">seasonal menu</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- ./menu -->
 
         <div class="container">
-            <div id="myCarousel" class="carousel slide">
-
-                <div class="carousel-inner">
-                    <article class="item active">
-                        <img src="http://placehold.it/1200x440/cccccc/ffffff">
-                        <div class="carousel-caption">
-                            <h3>Headline</h3>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-                            <p>
-                                <a class="btn btn-info btn-sm">Read More</a>
-                            </p>
-                        </div>
-                    </article>
-                    <article class="item">
-                        <img src="http://placehold.it/1200x440/999999/cccccc">
-                        <div class="carousel-caption">
-                            <h3>Headline</h3>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-                            <p>
-                                <a class="btn btn-info btn-sm">Read More</a>
-                            </p>
-                        </div>
-                    </article>
-                    <article class="item">
-                        <img src="http://placehold.it/1200x440/dddddd/333333">
-                        <div class="carousel-caption">
-                            <h3>Headline</h3>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-                            <p>
-                                <a class="btn btn-info btn-sm">Read More</a>
-                            </p>
-                        </div>
-                    </article>
+            <footer>
+                <div class="row">
+                    <div class="col-md-4 col-md-push-2">
+                        <p>
+                            No.24, Damai Plaza<br />
+                            Luyang, 88300 Kota Kinabalu<br />
+                        </p>
+                        <p>
+                            T. +6089-746-876<br />
+                            E. info@adelphiadnco.com<br />
+                        </p>
+                        <p>
+                            Monday to Saturday</br />
+                            9am to 10pm<br />
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-md-push-2">
+                        <h2>Careers</h2>
+                        <p>
+                            For interested applicants, please forward your resume to <a href="mailto:careers@adelphiandco.com?Subject=Job%20aplication">careers@adelphiandco.com</a>
+                        </p>
+                        <p>
+                            &copy; 2016 Adelphi & Co. All Rights Reserved.
+                        </p>
+                    </div>
                 </div>
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>
-                <!-- Controls -->
-                <!-- <div class="carousel-controls">
-                    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
-                        <span class="fa fa-angle-double-left"></span>
-                    </a>
-                    <a class="carousel-control right" href="#myCarousel" data-slide="next">
-                        <span class="fa fa-angle-double-right"></span>
-                    </a>
-                </div> -->
-            </div>
+            </footer>
         </div>
 
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.js"></script>
-        <script src="js/unslider-min.js" c></script>
+        <script src="js/owl.carousel.js"></script>
         <script src="js/app.js"></script>
     </body>
 </html>

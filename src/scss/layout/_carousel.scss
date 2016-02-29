@@ -1,0 +1,34 @@
+.experience__slide {
+    position: relative;
+}
+
+.experience__slide--content {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    position: absolute;
+    overflow: auto;
+    top: 0; left: auto; bottom: 0; right: 0;
+}
+
+.experience__slide--title,
+.experience__slide--caption {
+    color: #FFFFFF;
+}
+
+// Owl Carousel customs
+.owl-theme .owl-nav {
+    margin-top: 0;
+}
+
+.owl-dots {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+}
+
+.owl-dots .owl-dot span {
+    background-color: #FFFFFF!important;
+    &:hover {
+        background: #869791!important;
+    }
+}
