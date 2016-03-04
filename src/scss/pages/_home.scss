@@ -1,0 +1,94 @@
+/// Hero section
+/// Background
+.hero__jumbotron {
+	background-image: url(https://images.unsplash.com/photo-1455670684063-6171b26418fa?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=bf78ea809556d15527267b1ed59b5dc1);
+	background-position: center center;
+	height: 450px;
+	margin-bottom: 0;
+}
+
+
+/// Removed jumbotron radius
+.jumbotron.hero__jumbotron {
+	border-radius: 0;
+	color: #FFFFFF;
+	a {
+		img {
+			height: 50px;
+			width: 50px;
+			transform: rotate(90deg);
+		}
+	}
+}
+
+.hero__jumbotron--inner {
+	margin-top: 70px;
+}
+
+h1.hero__jumbotron--title {
+	font-size: $hero-h1-lg;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	line-height: 1.5;
+	span {
+		font-weight: 700;
+	}
+}
+
+p.hero__jumbotron--subtitle {
+	font-size: $hero-p-lg;
+}
+
+a.hero--scrolldown {
+	img {
+		margin-top: 50px;
+	}
+}
+
+%detail-left {
+	padding-left: 50px;
+	padding-right: 120px;
+}
+
+%detail-right {
+	padding-left: 120px;
+	padding-right: 50px;
+}
+
+/// Story section
+.story__details {
+	@extend %detail-left;
+	h1 {
+		text-transform: uppercase;
+		font-weight: 300;
+		span {
+			font-weight: 700;
+		}
+	}
+
+	a {
+		img {
+			height: 50px;
+			width: 50px;
+		}
+	}
+}
+
+/// Experience section
+.experience__slide .experience__slide--content {
+	@extend %detail-right;
+	right: 15%;
+}
+
+/// Menu section
+.menu__details {
+	@extend %detail-right;
+	h1 {
+		text-transform: uppercase;
+		font-weight: 300;
+		span {
+			font-weight: 700;
+		}
+	}
+}
