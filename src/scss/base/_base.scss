@@ -1,1 +1,24 @@
 //Global styles, such as resets, typography, colors, etc.
+
+html,
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+// font size
+$hero-h1-lg: 44.203px;
+$hero-p-lg: 14px;
+
+// measurements
+
+$adelphi-colors: (
+	'primary': #1F8A70,
+	'accent': #BEDB39,
+	'secondary': #FD7400,
+	'foreground': #FFE11A,
+	'background': #004358
+);
+
+@function adelphi-color($key: 'primary') {
+  @return map-get($adelphi-colors, $key);
+}

@@ -5960,6 +5960,71 @@ button.close {
   height: 100%;
   width: 100%; }
 
+html,
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+.hero__jumbotron {
+  background-image: url(https://images.unsplash.com/photo-1455670684063-6171b26418fa?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=bf78ea809556d15527267b1ed59b5dc1);
+  background-position: center center;
+  height: 450px;
+  margin-bottom: 0; }
+
+.jumbotron.hero__jumbotron {
+  border-radius: 0;
+  color: #FFFFFF; }
+  .jumbotron.hero__jumbotron a img {
+    height: 50px;
+    width: 50px;
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg); }
+
+.hero__jumbotron--inner {
+  margin-top: 70px; }
+
+h1.hero__jumbotron--title {
+  font-size: 44.203px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 1.5; }
+  h1.hero__jumbotron--title span {
+    font-weight: 700; }
+
+p.hero__jumbotron--subtitle {
+  font-size: 14px; }
+
+a.hero--scrolldown img {
+  margin-top: 50px; }
+
+.story__details {
+  padding-left: 50px;
+  padding-right: 120px; }
+
+.experience__slide .experience__slide--content, .menu__details {
+  padding-left: 120px;
+  padding-right: 50px; }
+
+.story__details h1 {
+  text-transform: uppercase;
+  font-weight: 300; }
+  .story__details h1 span {
+    font-weight: 700; }
+
+.story__details a img {
+  height: 50px;
+  width: 50px; }
+
+.experience__slide .experience__slide--content {
+  right: 15%; }
+
+.menu__details h1 {
+  text-transform: uppercase;
+  font-weight: 300; }
+  .menu__details h1 span {
+    font-weight: 700; }
+
 .brand {
   position: relative; }
   .brand .brand__logo {

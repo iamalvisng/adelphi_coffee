@@ -43,7 +43,8 @@ gulp.task('scripts', function() {
   return gulp.src([
 		'src/scripts/*.js',
     'bower_components/jquery/dist/jquery.js',
-    'bower_components/bootstrap-sass/assets/javascripts/bootstrap.js'
+    'bower_components/bootstrap-sass/assets/javascripts/bootstrap.js',
+    'bower_components/smooth-scroll/dist/js/smooth-scroll.js'
 	])
     .pipe($.uglify())
     .pipe(gulp.dest('dist/js'))

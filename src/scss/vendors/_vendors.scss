@@ -6,5 +6,6 @@
 // What I did is to simply include vendors/owl.carousel into the sassPath
 // and what I need to do is just including these styesheets by using @import
 
+@import "sassline/sassline";
 @import "owl.theme.default.scss";
 @import "owl.carousel/owl.carousel";
