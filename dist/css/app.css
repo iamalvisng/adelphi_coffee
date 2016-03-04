@@ -6025,16 +6025,31 @@ a.hero--scrolldown img {
   .menu__details h1 span {
     font-weight: 700; }
 
-.brand {
-  position: relative; }
-  .brand .brand__logo {
-    position: absolute;
-    width: 350px;
-    height: 50px;
-    left: 50%;
-    right: 50%;
-    top: 0;
-    margin-left: -175px; }
+.desktop-brand {
+  position: relative;
+  display: none; }
+  @media only screen and (min-width: 992px) {
+    .desktop-brand {
+      display: block; } }
+
+.desktop-brand__logo {
+  position: absolute;
+  width: 350px;
+  height: 50px;
+  left: 50%;
+  right: 50%;
+  top: 0;
+  margin-left: -175px; }
+
+@media only screen and (min-width: 992px) {
+  .mobile-brand {
+    display: none; } }
+
+.navigation .navigation__toggle {
+  border: 1px solid red; }
+
+.navigation .navigation--bar {
+  background-color: #888; }
 
 .experience__slide {
   position: relative; }

@@ -1,17 +1,52 @@
 $logo-width: 350px;
 $logo-margin: - ($logo-width / 2);
-.brand {
+
+.desktop-brand {
     position: relative;
-    .brand__logo {
-        position: absolute;
-        width: 350px;
-        height: 50px;
-        left: 50%;
-        right: 50%;
-        top: 0;
-        margin-left: $logo-margin;
+    display: none;
+    @media only screen and (min-width: 992px) {
+        display: block;
     }
 }
+
+.desktop-brand__logo {
+    position: absolute;
+    width: 350px;
+    height: 50px;
+    left: 50%;
+    right: 50%;
+    top: 0;
+    margin-left: $logo-margin;
+}
+
+.mobile-brand {
+    @media only screen and (min-width: 992px) {
+        display: none;
+    }
+}
+
+.navigation .navigation__toggle {
+    border: 1px solid red;
+}
+.navigation .navigation--bar {
+    background-color: #888;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
