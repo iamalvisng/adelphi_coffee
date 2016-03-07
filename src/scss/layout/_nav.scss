@@ -4,7 +4,7 @@ $logo-margin: - ($logo-width / 2);
 .desktop-brand {
     position: relative;
     display: none;
-    @media only screen and (min-width: 992px) {
+    @media only screen and (min-width: $screen-md) {
         display: block;
     }
 }
@@ -20,7 +20,7 @@ $logo-margin: - ($logo-width / 2);
 }
 
 .mobile-brand {
-    @media only screen and (min-width: 992px) {
+    @media only screen and (min-width: $screen-md) {
         display: none;
     }
 }
