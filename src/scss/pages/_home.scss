@@ -1,10 +1,11 @@
 /// Hero section
 /// Background
 .hero__jumbotron {
-	background-image: url(https://images.unsplash.com/photo-1455670684063-6171b26418fa?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=bf78ea809556d15527267b1ed59b5dc1);
+	background-image: url('/images/adelphi-home-header-bg.jpg');
 	background-position: center center;
-	height: 450px;
+	height: 455px;
 	margin-bottom: 0;
+	background-size: cover;
 }
 
 
@@ -22,22 +23,23 @@
 }
 
 .hero__jumbotron--inner {
-	margin-top: 70px;
+	padding-top: 98px;
 }
 
 h1.hero__jumbotron--title {
 	font-size: $hero-h1-lg;
+	line-height: $header-lh;
 	font-weight: 300;
 	text-transform: uppercase;
 	letter-spacing: 5px;
-	line-height: 1.5;
 	span {
-		font-weight: 700;
+		font-weight: 600;
 	}
 }
 
 p.hero__jumbotron--subtitle {
 	font-size: $hero-p-lg;
+	padding-top: 33px;
 }
 
 a.hero--scrolldown {
@@ -47,29 +49,43 @@ a.hero--scrolldown {
 }
 
 %detail-left {
-	padding-left: 50px;
-	padding-right: 120px;
+	padding-left: 46px;
+	padding-right: 170px;
 }
 
 %detail-right {
-	padding-left: 120px;
-	padding-right: 50px;
+	padding-left: 170px;
+	padding-right: 46px;
 }
 
 /// Story section
 .story__details {
 	@extend %detail-left;
+	padding-top: 50px;
 	h1 {
 		text-transform: uppercase;
 		font-weight: 300;
+		font-size: $hero-h1-lg;
+		letter-spacing: 5px;
+		line-height: $header-lh + 14px;
 		span {
 			font-weight: 700;
 		}
 	}
 
+	p {
+		font-size: 16px;
+		line-height: 22px;
+	}
+
 	a {
+		font-weight: 16px;
+		font-weight: 700;
+		position: relative;
+		top: 22px;
+		color: #101820;
 		img {
-			height: 50px;
+			height: 20px;
 			width: 50px;
 		}
 	}
@@ -77,18 +93,83 @@ a.hero--scrolldown {
 
 /// Experience section
 .experience__slide .experience__slide--content {
-	@extend %detail-right;
+	padding-left: 150px;
+	padding-right: 46px;
 	right: 15%;
+}
+
+h1.experience__slide--title {
+	font-size: $hero-h1-lg;
+	line-height: $header-lh + 14px;
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: 5px;
+	span {
+		font-weight: 700;
+	}
+}
+
+p.experience__slide--caption {
+	font-size: 16px;
+	line-height: 22px;
 }
 
 /// Menu section
 .menu__details {
 	@extend %detail-right;
+	padding-top: 50px;
 	h1 {
 		text-transform: uppercase;
 		font-weight: 300;
+		font-size: $hero-h1-lg;
+		letter-spacing: 5px;
+		line-height: $header-lh + 14px;
 		span {
 			font-weight: 700;
 		}
+	}
+
+	p {
+		font-size: 16px;
+		line-height: 22px;
+	}
+
+	p.menu__link {
+		position: relative;
+		top: 22px;
+	}
+
+
+	a {
+		font-weight: 16px;
+		font-weight: 700;
+		color: #101820;
+		text-decoration: none;
+		border-bottom: 1px solid #000000;
+	}
+}
+
+.menu__image {
+	position: relative;
+}
+
+.menu__direct {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	a {
+		color: #FFFFFF;
+		font-weight: 700;
+		position: absolute;
+		right: 30px;
+		text-decoration: none;
+		bottom: 0;
+		z-index: 1;
+		padding-top: 15px;
+		text-align: center;
+		width: 100px;
+		height: 50px;
+		background: #000;
 	}
 }

@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Foundation for Sites</title>
         <link rel="stylesheet" href="css/app.css">
-		<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
     </head>
     <body>
         <nav class="navbar navigation">
@@ -26,30 +26,34 @@
                 </div>
                 <div class="desktop-brand">
                     <a class="navbar-brand" href="index.html">
-                        <img class="img-responsive desktop-brand__logo" alt="Brand" src="http://placehold.it/250x50">
+                        <img class="img-responsive desktop-brand__logo" alt="Adelphi & Co Logo" src="./images/Adelphi-&-Co-logo.png">
                     </a>
                 </div>
 
                 <div class="collapse navbar-collapse" id="main-nav">
-                    <ul class="nav navbar-nav">
+                    <ul class="nav navbar-nav navigation__list">
                         <li class="active">
-                            <a href="index.html">Home
+                            <a href="index.html" class="navigation--link">Home
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
                         <li>
-                            <a href="about.html">About</a>
+                            <a href="about.html" class="navigation--link">About</a>
                         </li>
                         <li>
-                            <a href="menu.html">Menu</a>
+                            <a href="menu.html" class="navigation--link">Menu</a>
                         </li>
                     </ul>
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav navbar-right navigation__list">
                         <li>
-                            <a href="#">T</a>
+                            <a href="#" class="navigation--link">
+                                <img class="navigation--facebook" src="./images/Facebook-icon.png" alt="Adelphi & Co @ Facebook"/>
+                            </a>
                         </li>
                         <li>
-                            <a href="#">I</a>
+                            <a href="#" class="navigation--link">
+                                <img class="navigation--instagram" src="./images/Instagram-icon.png" alt="Adelphi & Co @ Instagram"/>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -62,13 +66,15 @@
         <div class="container hero">
             <div class="jumbotron hero__jumbotron text-center">
                 <div class="hero__jumbotron--inner">
-                    <h1 class="hero__jumbotron--title">A new <span>experience</span></h1>
+                    <h1 class="hero__jumbotron--title">A new
+                        <span>experience</span>
+                    </h1>
                     <p class="hero__jumbotron--subtitle">
-                        A journey towards our flagship cafe.<br />
+                        A journey towards our flagship cafe.<br/>
                         A sip is memorable and a taste is beyond imagination.
                     </p>
                     <a data-scroll href="#story" class="hero--scrolldown">
-                        <img src="images/right-arrow.svg" alt="" />
+                        <img src="images/right-arrow.svg" alt=""/>
                     </a>
                 </div>
             </div>
@@ -78,19 +84,21 @@
         <div class="container story" id="story">
             <div class="row">
                 <div class="col-sm-12 col-md-6 story__details">
-                    <h1>Our <span>story</span></h1>
+                    <h1>Our
+                        <span>story</span>
+                    </h1>
                     <p>
                         The humble beginnings of Adelphi & Co...Proin gravida nibh velh velit aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum.
                     </p>
                     <a href="#">
                         The untold story
                         <span class="story--arrow-right">
-                            <img src="images/right-arrow--black.svg" alt="" />
+                            <img src="images/right-arrow--black.svg" alt=""/>
                         </span>
                     </a>
                 </div>
                 <div class="col-sm-12 col-md-6 story__image">
-                    <img class="img-responsive" src="https://images.unsplash.com/photo-1455146106369-1e31beb07fce?crop=entropy&dpr=2&fit=crop&fm=jpg&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1200"/>
+                    <img class="img-responsive" src="./images/adelphi-story-bg.jpg"/>
                 </div>
             </div>
         </div>
@@ -99,42 +107,46 @@
         <div class="container experience">
             <div class="owl-carousel">
                 <div class="experience__slide">
-                    <img src="images/coffee-1.jpg" alt="" />
+                    <img src="./images/adelphi-experience-bg1.jpg" alt=""/>
                     <div class="col-md-6 experience__slide--content">
-                        <h2 class="experience__slide--title">The experience</h2>
+                        <h1 class="experience__slide--title">The
+                            <span>experience</span>
+                        </h1>
                         <p class="experience__slide--caption">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Het vlaggenschip waar we zo fier op zijn, blijft ons Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
                     </div>
                 </div>
                 <div class="experience__slide">
-                    <img src="images/coffee-2.jpg" alt="" />
+                    <img src="./images/adelphi-experience-bg1.jpg" alt=""/>
                     <div class="col-md-6 experience__slide--content">
-                        <h2 class="experience__slide--title">The experience</h2>
+                        <h1 class="experience__slide--title">The
+                            <span>experience</span>
+                        </h1>
                         <p class="experience__slide--caption">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
                     </div>
                 </div>
                 <div class="experience__slide">
-                    <img src="images/coffee-3.jpg" alt="" />
+                    <img src="./images/adelphi-experience-bg1.jpg" alt=""/>
                     <div class="col-md-6 experience__slide--content">
-                        <h2 class="experience__slide--title">The experience</h2>
+                        <h1 class="experience__slide--title">The
+                            <span>experience</span>
+                        </h1>
                         <p class="experience__slide--caption">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
                     </div>
                 </div>
                 <div class="experience__slide">
-                    <img src="images/coffee-4.jpg" alt="" />
+                    <img src="./images/adelphi-experience-bg1.jpg" alt=""/>
                     <div class="col-md-6 experience__slide--content">
-                        <h2 class="experience__slide--title">The experience</h2>
+                        <h1 class="experience__slide--title">The
+                            <span>experience</span>
+                        </h1>
                         <p class="experience__slide--caption">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
                     </div>
                 </div>
@@ -145,16 +157,21 @@
         <div class="container menu">
             <div class="row">
                 <div class="col-sm-12 col-md-6 menu__image">
-                    <img class="img-responsive" src="https://images.unsplash.com/photo-1455146106369-1e31beb07fce?crop=entropy&dpr=2&fit=crop&fm=jpg&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1200" alt="" />
+                    <div class="menu__direct">
+                        <a href="#">MENU</a>
+                    </div>
+                    <img class="img-responsive" src="./images/adelphi-menu-bg.jpg" alt=""/>
                 </div>
                 <div class="col-sm-12 col-md-6 menu__details">
-                    <h1>Our <span>Menu</span></h1>
+                    <h1>Our
+                        <span>Menu</span>
+                    </h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
                     </p>
-                    <p>
-                        Check out our <a href="#">seasonal menu</a>
+                    <p class="menu__link">
+                        Check out our
+                        <a href="#">seasonal menu</a>
                     </p>
                 </div>
             </div>
@@ -166,35 +183,36 @@
                 <div class="row">
                     <div class="col-md-4 col-md-push-2">
                         <p>
-                            No.24, Damai Plaza<br />
-                            Luyang, 88300 Kota Kinabalu<br />
+                            No.24, Damai Plaza<br/>
+                            Luyang, 88300 Kota Kinabalu<br/>
                         </p>
                         <p>
-                            T. +6089-746-876<br />
-                            E. info@adelphiadnco.com<br />
+                            T. +6089-746-876<br/>
+                            E. info@adelphiadnco.com<br/>
                         </p>
                         <p>
                             Monday to Saturday</br />
-                            9am to 10pm<br />
-                        </p>
-                    </div>
-                    <div class="col-md-4 col-md-push-2">
-                        <h2>Careers</h2>
-                        <p>
-                            For interested applicants, please forward your resume to <a href="mailto:careers@adelphiandco.com?Subject=Job%20aplication">careers@adelphiandco.com</a>
-                        </p>
-                        <p>
-                            &copy; 2016 Adelphi & Co. All Rights Reserved.
-                        </p>
-                    </div>
+                        9am to 10pm<br/>
+                    </p>
                 </div>
-            </footer>
-        </div>
+                <div class="col-md-4 col-md-push-2">
+                    <h2>Careers</h2>
+                    <p>
+                        For interested applicants, please forward your resume to
+                        <a href="mailto:careers@adelphiandco.com?Subject=Job%20aplication">careers@adelphiandco.com</a>
+                    </p>
+                    <p>
+                        &copy; 2016 Adelphi & Co. All Rights Reserved.
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
 
-        <script src="http://www.alvisng.me/adelphi_coffee/dist/js/jquery.js"></script>
-        <script src="http://www.alvisng.me/adelphi_coffee/dist/js/bootstrap.js"></script>
-        <script src="http://www.alvisng.me/adelphi_coffee/dist/js/owl.carousel.js"></script>
-        <script src="http://www.alvisng.me/adelphi_coffee/dist/js/smooth-scroll.js"></script>
-        <script src="http://www.alvisng.me/adelphi_coffee/dist/js/app.js"></script>
-    </body>
+    <script src="http://www.alvisng.me/adelphi_coffee/dist/js/jquery.js"></script>
+    <script src="http://www.alvisng.me/adelphi_coffee/dist/js/bootstrap.js"></script>
+    <script src="http://www.alvisng.me/adelphi_coffee/dist/js/owl.carousel.js"></script>
+    <script src="http://www.alvisng.me/adelphi_coffee/dist/js/smooth-scroll.js"></script>
+    <script src="http://www.alvisng.me/adelphi_coffee/dist/js/app.js"></script>
+</body>
 </html>

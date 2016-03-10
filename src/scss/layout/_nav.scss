@@ -1,4 +1,4 @@
-$logo-width: 350px;
+$logo-width: 223px;
 $logo-margin: - ($logo-width / 2);
 
 .desktop-brand {
@@ -11,11 +11,10 @@ $logo-margin: - ($logo-width / 2);
 
 .desktop-brand__logo {
     position: absolute;
-    width: 350px;
-    height: 50px;
+    height: auto;
     left: 50%;
     right: 50%;
-    top: 0;
+    top: 33px;
     margin-left: $logo-margin;
 }
 
@@ -32,78 +31,29 @@ $logo-margin: - ($logo-width / 2);
     background-color: #888;
 }
 
+.navigation__list {
+    margin-top: 20px;
+}
 
+img.navigation--facebook {
+    width: 11px;
+    height: 20px;
+}
 
+img.navigation--instagram {
+    width: 20px;
+    height: 20px;
+}
 
+.navigation__list a.navigation--link {
+    font-size: 18px;
+    color: #101820;
+    font-weight: 300;
+    &:hover {
+        background: none;
+    }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// .carousel-control.left,
-// .carousel-control.right {
-//     background-image: none !important;
-// }
-// .carousel-inner .item img {
-//     width: 100%;
-//     height: 100%;
-// }
-// .carousel-indicators {
-//     bottom: 5px;
-//     left: 50%;
-//     width: auto;
-//     padding: 5px 25px;
-//     margin-left: 0;
-//     // background: rgba(0,0,0,0.7);
-// }
-// .carousel-indicators li {
-//     border-radius: 0;
-//     width: 8px;
-//     height: 8px;
-//     background: #fff;
-// }
-// .carousel-indicators .active {
-//     width: 10px;
-//     height: 10px;
-//     background: #39b3d7;
-//     border-color: #39b3d7;
-// }
-// // .carousel-control {
-// //     background: #39b3d7;
-// //     color: #fff;
-// //     padding: 4px 0;
-// //     width: 26px;
-// //     top: auto;
-// //     left: auto;
-// //     bottom: 12px;
-// //     opacity: 0.85;
-// // }
-// // .carousel-control.right {
-// //     right: 10px;
-// // }
-// // .carousel-control.left {
-// //     right: 46px;
-// // }
-// .carousel-caption {
-//     top: auto;
-//     width: auto;
-//     right: 0;
-//     bottom: 60px;
-//     left: auto;
-//     padding: 20px;
-//     // background: rgba(0,0,0,0.70);
-//     text-align: left;
-//     height: auto;
-//     max-width: 50%;
-// }
+.navigation .active .navigation--link {
+    font-weight: 600;
+}
