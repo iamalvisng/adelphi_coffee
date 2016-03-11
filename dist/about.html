@@ -25,30 +25,34 @@
                 </div>
                 <div class="desktop-brand">
                     <a class="navbar-brand" href="index.html">
-                        <img class="img-responsive desktop-brand__logo" alt="Brand" src="http://placehold.it/250x50">
+                        <img class="img-responsive desktop-brand__logo" alt="Adelphi & Co Logo" src="./images/Adelphi-&-Co-logo.png">
                     </a>
                 </div>
 
                 <div class="collapse navbar-collapse" id="main-nav">
-                    <ul class="nav navbar-nav">
-                        <li class="active">
-                            <a href="index.html">Home</a>
-                        </li>
+                    <ul class="nav navbar-nav navigation__list">
                         <li>
-                            <a href="about.html">About
+                            <a href="index.html" class="navigation--link">Home</a>
+                        </li>
+                        <li class="active">
+                            <a href="index.html" class="navigation--link">About
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
                         <li>
-                            <a href="menu.html">Menu</a>
+                            <a href="menu.html" class="navigation--link">Menu</a>
                         </li>
                     </ul>
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav navbar-right navigation__list">
                         <li>
-                            <a href="#">T</a>
+                            <a href="https://www.facebook.com/adelphicoffee" class="navigation--link">
+                                <img class="navigation--facebook" src="./images/Facebook-icon.png" alt="Adelphi & Co @ Facebook"/>
+                            </a>
                         </li>
                         <li>
-                            <a href="#">I</a>
+                            <a href="https://www.instagram.com/adelphi_coffee/" class="navigation--link">
+                                <img class="navigation--instagram" src="./images/Instagram-icon.png" alt="Adelphi & Co @ Instagram"/>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -59,52 +63,52 @@
         <!-- /nav -->
 
         <div class="container hero">
-            <div class="jumbotron">
-                <h1>A journey and a passion</h1>
-                <p>
-                    We've always been about celebrating life's simple pleasures,<br />
-                    which for us, is enjoying good food and good coffee!
-                </p>
-                <a href="#">Arrow down</a>
+            <div class="jumbotron hero__jumbotron hero--about text-center">
+                <div class="hero__jumbotron--inner">
+                    <h1 class="hero__jumbotron--title">A <span>journey</span> and a <span>passion</span></h1>
+                    <p class="hero__jumbotron--subtitle">
+                        We've always been about celebrating life's simple pleasures,<br/>
+                        which for us, is enjoying good food and good coffee!
+                    </p>
+                    <a data-scroll href="#founder" class="hero--scrolldown" href="#">
+                        <img src="images/right-arrow.svg" alt=""/>
+                    </a>
+                </div>
             </div>
         </div>
         <!-- ./hero -->
 
-        <div class="container story">
+        <div class="container founder" id="founder">
             <div class="row">
-                <div class="col-sm-12 col-md-6 story__details">
-                    <h2>The founder</h2>
+                <div class="col-sm-12 col-md-6 founder__details">
+                    <h1>The <span>founder</span></h1>
                     <p>
                         The humble beginnings of Adelphi & Co...Proin gravida nibh velh velit aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum.
                     </p>
-                    <a href="#">The untold story
-                        <span>Arrow right</span>
-                    </a>
                 </div>
                 <div class="col-sm-12 col-md-6 story__moment">
-                    <img class="img-responsive" src="https://images.unsplash.com/photo-1455146106369-1e31beb07fce?crop=entropy&dpr=2&fit=crop&fm=jpg&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1200"/>
+                    <img class="img-responsive" src="./images/adelphi-founder-bg.jpg"/>
                 </div>
             </div>
         </div>
         <!-- /.story -->
 
-        <div class="container story">
+        <div class="container chef">
             <div class="row">
                 <div class="col-sm-12 col-md-6 story__moment">
-                    <img class="img-responsive" src="https://images.unsplash.com/photo-1455146106369-1e31beb07fce?crop=entropy&dpr=2&fit=crop&fm=jpg&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1200"/>
+                    <img class="img-responsive" src="./images/adelphi-founder-bg.jpg"/>
                 </div>
-                <div class="col-sm-12 col-md-6 story__details">
-                    <h2>Chef Jimmy</h2>
+                <div class="col-sm-12 col-md-6 chef__details">
+                    <h1>Chef <span>Jimmy</span></h1>
                     <p>
-                        Developed a passion for cooking, learning from the finest from a Michelin-starred restaurant and now cooking a storm in this vibrant city
-                        with a taste for great food. Here Jimmy shares about what inspires him through his menu.
+                        Developed a passion for cooking, learning from the finest from a Michelin-starred restaurant and now cooking a storm in this vibrant city with a taste for great food. Here Jimmy shares about what inspires him through his menu.
                     </p>
                     <p>
                         Jimmy and Roy both shared a goal and aims to provide the community with high quality comfort food made with the freshest ingredients possible.
-                        He makes most of everthing by allowing the team of chefs and bakers to love what they do and enjoy doing it day in and day out.
                     </p>
                     <p>
-                        Check out Jimmy's <a href="#">seasonal menu</a>
+                        Check out Jimmy's
+                        <a href="#">seasonal menu</a>
                     </p>
                 </div>
             </div>
@@ -116,34 +120,36 @@
                 <div class="row">
                     <div class="col-md-4 col-md-push-2">
                         <p>
-                            No.24, Damai Plaza<br />
-                            Luyang, 88300 Kota Kinabalu<br />
+                            No.24, Damai Plaza<br/>
+                            Luyang, 88300 Kota Kinabalu<br/>
                         </p>
                         <p>
-                            T. +6089-746-876<br />
-                            E. info@adelphiadnco.com<br />
+                            T. +6089-746-876<br/>
+                            E. info@adelphiadnco.com<br/>
                         </p>
                         <p>
                             Monday to Saturday</br />
-                            9am to 10pm<br />
-                        </p>
-                    </div>
-                    <div class="col-md-4 col-md-push-2">
-                        <h2>Careers</h2>
-                        <p>
-                            For interested applicants, please forward your resume to <a href="mailto:careers@adelphiandco.com?Subject=Job%20aplication">careers@adelphiandco.com</a>
-                        </p>
-                        <p>
-                            &copy; 2016 Adelphi & Co. All Rights Reserved.
-                        </p>
-                    </div>
+                        9am to 10pm<br/>
+                    </p>
                 </div>
-            </footer>
-        </div>
+                <div class="col-md-4 col-md-push-2">
+                    <h2>Careers</h2>
+                    <p>
+                        For interested applicants, please forward your resume to
+                        <a href="mailto:careers@adelphiandco.com?Subject=Job%20aplication">careers@adelphiandco.com</a>
+                    </p>
+                    <p>
+                        &copy; 2016 Adelphi & Co. All Rights Reserved.
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
 
-        <script src="js/jquery.js"></script>
-        <script src="js/bootstrap.js"></script>
-        <script src="js/owl.carousel.js"></script>
-        <script src="js/app.js"></script>
-    </body>
+    <script src="http://www.alvisng.me/adelphi_coffee/dist/js/jquery.js"></script>
+    <script src="http://www.alvisng.me/adelphi_coffee/dist/js/bootstrap.js"></script>
+    <script src="http://www.alvisng.me/adelphi_coffee/dist/js/owl.carousel.js"></script>
+    <script src="http://www.alvisng.me/adelphi_coffee/dist/js/smooth-scroll.js"></script>
+    <script src="http://www.alvisng.me/adelphi_coffee/dist/js/app.js"></script>
+</body>
 </html>

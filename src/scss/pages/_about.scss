@@ -1,0 +1,11 @@
+.hero--about {
+    background-image: url('/images/adelphi-about-header-bg.jpg');
+}
+
+.founder__details {
+    @extend .story__details;
+}
+
+.chef__details {
+    @extend .menu__details;
+}

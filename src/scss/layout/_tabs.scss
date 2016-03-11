@@ -1,3 +1,9 @@
+.masterpiece {
+    h1 {
+        margin-top: 50px;
+    }
+}
+
 .masterpiece__menu {
     text-align: center;
     ul.nav.nav-pills {
@@ -11,15 +17,21 @@
     }
 }
 .masterpiece__menu--pills {
-    padding-top: 30px;
+    padding-top: 32px;
     padding-bottom: 50px;
 }
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    background: url('/images/drinks-icon.png');
+}
+
 li a.masterpiece__menu--link {
-    background-color: #ACE;
+    // background: url('/images/drinks-icon.png');
+    background: #ACE;
     border-radius: 50%;
     display: block;
-    height: 50px;
-    width: 50px;
+    height: 67px;
+    width: 66px;
     margin: auto;
     padding: 25px 0 0;
     text-decoration: none;

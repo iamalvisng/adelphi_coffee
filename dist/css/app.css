@@ -6000,34 +6000,34 @@ p.hero__jumbotron--subtitle {
 a.hero--scrolldown img {
   margin-top: 50px; }
 
-.story__details {
+.story__details, .founder__details {
   padding-left: 46px;
   padding-right: 170px; }
 
-.menu__details {
+.menu__details, .chef__details {
   padding-left: 170px;
   padding-right: 46px; }
 
-.story__details {
+.story__details, .founder__details {
   padding-top: 50px; }
-  .story__details h1 {
+  .story__details h1, .founder__details h1 {
     text-transform: uppercase;
     font-weight: 300;
     font-size: 34px;
     letter-spacing: 5px;
     line-height: 38px; }
-    .story__details h1 span {
+    .story__details h1 span, .founder__details h1 span {
       font-weight: 700; }
-  .story__details p {
+  .story__details p, .founder__details p {
     font-size: 16px;
     line-height: 22px; }
-  .story__details a {
+  .story__details a, .founder__details a {
     font-weight: 16px;
     font-weight: 700;
     position: relative;
     top: 22px;
     color: #101820; }
-    .story__details a img {
+    .story__details a img, .founder__details a img {
       height: 20px;
       width: 50px; }
 
@@ -6049,23 +6049,23 @@ p.experience__slide--caption {
   font-size: 16px;
   line-height: 22px; }
 
-.menu__details {
+.menu__details, .chef__details {
   padding-top: 50px; }
-  .menu__details h1 {
+  .menu__details h1, .chef__details h1 {
     text-transform: uppercase;
     font-weight: 300;
     font-size: 34px;
     letter-spacing: 5px;
     line-height: 38px; }
-    .menu__details h1 span {
+    .menu__details h1 span, .chef__details h1 span {
       font-weight: 700; }
-  .menu__details p {
+  .menu__details p, .chef__details p {
     font-size: 16px;
     line-height: 22px; }
-  .menu__details p.menu__link {
+  .menu__details p.menu__link, .chef__details p.menu__link {
     position: relative;
     top: 22px; }
-  .menu__details a {
+  .menu__details a, .chef__details a {
     font-weight: 16px;
     font-weight: 700;
     color: #101820;
@@ -6093,6 +6093,17 @@ p.experience__slide--caption {
     width: 100px;
     height: 50px;
     background: #000; }
+
+.hero--about {
+  background-image: url("/images/adelphi-about-header-bg.jpg"); }
+
+.hero--menu {
+  background-image: url("/images/adelphi-menu-header-bg.jpg"); }
+  .hero--menu .hero__jumbotron--title {
+    line-height: 44px; }
+  .hero--menu .hero__jumbotron--subtitle span {
+    font-weight: 600;
+    font-style: italic; }
 
 .desktop-brand {
   position: relative;
@@ -6172,6 +6183,9 @@ img.navigation--instagram {
   .owl-dots .owl-dot span:hover {
     background: #869791 !important; }
 
+.masterpiece h1 {
+  margin-top: 50px; }
+
 .masterpiece__menu {
   text-align: center; }
   .masterpiece__menu ul.nav.nav-pills {
@@ -6182,15 +6196,18 @@ img.navigation--instagram {
         float: left; }
 
 .masterpiece__menu--pills {
-  padding-top: 30px;
+  padding-top: 32px;
   padding-bottom: 50px; }
 
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  background: url("/images/drinks-icon.png"); }
+
 li a.masterpiece__menu--link {
-  background-color: #ACE;
+  background: #ACE;
   border-radius: 50%;
   display: block;
-  height: 50px;
-  width: 50px;
+  height: 67px;
+  width: 66px;
   margin: auto;
   padding: 25px 0 0;
   text-decoration: none;

@@ -25,30 +25,34 @@
                 </div>
                 <div class="desktop-brand">
                     <a class="navbar-brand" href="index.html">
-                        <img class="img-responsive desktop-brand__logo" alt="Brand" src="http://placehold.it/250x50">
+                        <img class="img-responsive desktop-brand__logo" alt="Adelphi & Co Logo" src="./images/Adelphi-&-Co-logo.png">
                     </a>
                 </div>
 
                 <div class="collapse navbar-collapse" id="main-nav">
-                    <ul class="nav navbar-nav">
+                    <ul class="nav navbar-nav navigation__list">
+                        <li>
+                            <a href="index.html" class="navigation--link">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html" class="navigation--link">About</a>
+                        </li>
                         <li class="active">
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li>
-                            <a href="about.html">About</a>
-                        </li>
-                        <li>
-                            <a href="menu.html">Menu
+                            <a href="menu.html" class="navigation--link">Menu
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
                     </ul>
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav navbar-right navigation__list">
                         <li>
-                            <a href="#">T</a>
+                            <a href="https://www.facebook.com/adelphicoffee">
+                                <img class="navigation--facebook" src="./images/Facebook-icon.png" alt="Adelphi & Co @ Facebook"/>
+                            </a>
                         </li>
                         <li>
-                            <a href="#">I</a>
+                            <a href="https://www.instagram.com/adelphi_coffee/" class="navigation--link">
+                                <img class="navigation--instagram" src="./images/Instagram-icon.png" alt="Adelphi & Co @ Instagram"/>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -59,17 +63,21 @@
         <!-- /nav -->
 
         <div class="container hero">
-            <div class="jumbotron">
-                <h1>The connerstone of good cooking</h1>
-                <p>
-                    is to source the finest produce.
-                </p>
-                <a href="#">Arrow down</a>
+            <div class="jumbotron hero__jumbotron hero--menu text-center">
+                <div class="hero__jumbotron--inner">
+                    <h1 class="hero__jumbotron--title">The <span>connerstone</span> of<br>good cooking</h1>
+                    <p class="hero__jumbotron--subtitle">
+                        is to <span>source the finest produce.</span>
+                    </p>
+                    <a data-scroll href="#menu" class="hero--scrolldown" href="#">
+                        <img src="images/right-arrow.svg" alt=""/>
+                    </a>
+                </div>
             </div>
         </div>
         <!-- ./hero -->
 
-        <div class="container masterpiece">
+        <div class="container masterpiece" id="menu">
             <div class="row">
                 <div class="col-md-12 text-center">
                     <h1>All day menu</h1>
@@ -982,9 +990,10 @@
         </footer>
     </div>
 
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/owl.carousel.js"></script>
-    <script src="js/app.js"></script>
+    <script src="http://www.alvisng.me/adelphi_coffee/dist/js/jquery.js"></script>
+    <script src="http://www.alvisng.me/adelphi_coffee/dist/js/bootstrap.js"></script>
+    <script src="http://www.alvisng.me/adelphi_coffee/dist/js/owl.carousel.js"></script>
+    <script src="http://www.alvisng.me/adelphi_coffee/dist/js/smooth-scroll.js"></script>
+    <script src="http://www.alvisng.me/adelphi_coffee/dist/js/app.js"></script>
 </body>
 </html>
