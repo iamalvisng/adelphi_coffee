@@ -5965,7 +5965,7 @@ body {
   font-family: 'Open Sans', sans-serif; }
 
 .hero__jumbotron {
-  background-image: url("./images/adelphi-home-header-bg.jpg");
+  background-image: url("http://alvisng.me/adelphi_coffee/dist/images/adelphi-home-header-bg.jpg");
   background-position: center center;
   height: 455px;
   margin-bottom: 0;
@@ -6095,10 +6095,10 @@ p.experience__slide--caption {
     background: #000; }
 
 .hero--about {
-  background-image: url("/images/adelphi-about-header-bg.jpg"); }
+  background-image: url("http://alvisng.me/adelphi_coffee/dist/images/adelphi-about-header-bg.jpg"); }
 
 .hero--menu {
-  background-image: url("/images/adelphi-menu-header-bg.jpg"); }
+  background-image: url("http://alvisng.me/adelphi_coffee/dist/images/adelphi-menu-header-bg.jpg"); }
   .hero--menu .hero__jumbotron--title {
     line-height: 44px; }
   .hero--menu .hero__jumbotron--subtitle span {
