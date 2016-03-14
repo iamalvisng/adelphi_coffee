@@ -6105,6 +6105,44 @@ p.experience__slide--caption {
     font-weight: 600;
     font-style: italic; }
 
+.masterpiece--title {
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 5px;
+  color: #101820; }
+
+.masterpiece__menu {
+  margin-top: 42px; }
+
+ul.masterpiece__menu--pills li a {
+  position: relative;
+  color: rgba(16, 24, 32, 0.5);
+  font-weight: 700; }
+  ul.masterpiece__menu--pills li a p {
+    padding-top: 18px; }
+  ul.masterpiece__menu--pills li a:hover, ul.masterpiece__menu--pills li a:focus {
+    background-color: transparent;
+    color: #101820; }
+
+ul.masterpiece__menu--pills img {
+  width: 66px;
+  height: 66px;
+  opacity: 0.3;
+  transition: all 0.3s 0s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+
+ul.masterpiece__menu--pills li.active img, ul.masterpiece__menu--pills li:hover img, ul.masterpiece__menu--pills li:focus img {
+  opacity: 1;
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+  transition: all 0.3s 0s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+
+.tab-pane .tab-inner {
+  padding: 86px 0 20px; }
+
+.masterpiece__menu-each:not(:last-child) {
+  padding-bottom: 20px; }
+
 .desktop-brand {
   position: relative;
   display: none; }
@@ -6185,67 +6223,6 @@ img.navigation--instagram {
 
 .masterpiece h1 {
   margin-top: 50px; }
-
-.masterpiece__menu {
-  text-align: center; }
-  .masterpiece__menu ul.nav.nav-pills {
-    display: inline-block; }
-    .masterpiece__menu ul.nav.nav-pills li {
-      display: inline; }
-      .masterpiece__menu ul.nav.nav-pills li a {
-        float: left; }
-
-.masterpiece__menu--pills {
-  padding-top: 32px;
-  padding-bottom: 50px; }
-
-.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
-  background: url("/images/drinks-icon.png"); }
-
-li a.masterpiece__menu--link {
-  background: #ACE;
-  border-radius: 50%;
-  display: block;
-  height: 67px;
-  width: 66px;
-  margin: auto;
-  padding: 25px 0 0;
-  text-decoration: none;
-  position: relative; }
-  li a.masterpiece__menu--link::after {
-    color: #41423F;
-    position: absolute;
-    top: 70px;
-    bottom: 0;
-    right: 0;
-    left: 0; }
-
-.masterpiece__menu--lights::after {
-  content: "Lights"; }
-
-.masterpiece__menu--lights:hover:after {
-  font-weight: bold; }
-
-.masterpiece__menu--mains::after {
-  content: "Mains"; }
-
-.masterpiece__menu--mains:hover:after {
-  font-weight: bold; }
-
-.masterpiece__menu--desserts::after {
-  content: "Desserts"; }
-
-.masterpiece__menu--desserts:hover:after {
-  font-weight: bold; }
-
-.masterpiece__menu--drinks::after {
-  content: "Drinks"; }
-
-.masterpiece__menu--drinks:hover:after {
-  font-weight: bold; }
-
-.masterpiece__menu ul li:not(:first-child) {
-  padding-left: 170px; }
 
 .masterpiece__menu-each {
   text-align: left; }

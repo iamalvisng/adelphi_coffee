@@ -9,3 +9,63 @@
         font-style: italic;
     }
 }
+
+.masterpiece--title {
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 5px;
+    color: #101820;
+}
+
+.masterpiece__menu {
+    margin-top: 42px;
+}
+
+ul.masterpiece__menu--pills {
+     li {
+         a {
+            position: relative;
+            color: rgba(#101820, 0.5);
+            font-weight: 700;
+            p {
+                padding-top: 18px;
+            }
+            &:hover,
+            &:focus {
+                background-color: transparent;
+                color: #101820;
+            }
+        }
+    }
+}
+
+ul.masterpiece__menu--pills {
+    img {
+        width: 66px;
+        height: 66px;
+        opacity: 0.3;
+        transition: all 0.3s 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+}
+
+ul.masterpiece__menu--pills {
+    li {
+        &.active,
+        &:hover,
+        &:focus {
+            img {
+                opacity: 1;
+                transform: none;
+                transition: all 0.3s 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            }
+        }
+    }
+}
+
+.tab-pane .tab-inner {
+    padding: 86px 0 20px;
+}
+
+.masterpiece__menu-each:not(:last-child) {
+    padding-bottom: 20px;
+}
