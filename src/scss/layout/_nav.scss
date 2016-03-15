@@ -9,6 +9,10 @@ $logo-margin: - ($logo-width / 2);
     }
 }
 
+.navbar-header {
+    padding-top: 15px;
+}
+
 .desktop-brand__logo {
     position: absolute;
     height: auto;
@@ -18,14 +22,50 @@ $logo-margin: - ($logo-width / 2);
     margin-left: $logo-margin;
 }
 
+.navbar-left {
+    float: left;
+    margin-left: 15px;
+    z-index: 1;
+}
+
 .mobile-brand {
     @media only screen and (min-width: 992px) {
         display: none;
     }
 }
 
+.mobile-brand__logo {
+    width: 100%;
+    display: block;
+    position: absolute;
+    img {
+        margin-left: auto;
+        margin-right: auto;
+        width: 35%;
+    }
+}
+
+.navigation__list.navigation__social--mobile {
+    position: absolute;
+    margin-top: 0;
+    right: 15px;
+    li {
+        display: inline-block;
+    }
+    @media only screen and (min-width: 992px) {
+        display: none;
+    }
+}
+
+.navigation__social--desktop {
+    display: none;
+    @media only screen and (min-width: 992px) {
+        display: block;
+    }
+}
+
 .navigation .navigation__toggle {
-    border: 1px solid red;
+    border: none;
 }
 .navigation .navigation--bar {
     background-color: #888;

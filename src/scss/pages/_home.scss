@@ -3,9 +3,12 @@
 .hero__jumbotron {
 	background-image: url('http://alvisng.me/adelphi_coffee/dist/images/adelphi-home-header-bg.jpg');
 	background-position: center center;
-	height: 455px;
-	margin-bottom: 0;
 	background-size: cover;
+	height: 525px;
+	@media only screen and (min-width: 992px) {
+		height: 455px;
+		margin-bottom: 0;
+	}
 }
 
 
@@ -27,13 +30,17 @@
 }
 
 h1.hero__jumbotron--title {
-	font-size: $hero-h1-lg;
-	line-height: $header-lh;
 	font-weight: 300;
 	text-transform: uppercase;
 	letter-spacing: 5px;
+
 	span {
 		font-weight: 600;
+	}
+
+	@media only screen and (min-width: 992px) {
+		font-size: $hero-h1-lg;
+		line-height: $header-lh;
 	}
 }
 
@@ -60,14 +67,25 @@ a.hero--scrolldown {
 
 /// Story section
 .story__details {
-	@extend %detail-left;
-	padding-top: 50px;
+
+	@media only screen and (min-width: 992px) {
+		padding-left: 46px;
+		padding-right: 170px;
+		padding-top: 50px;
+	}
+
 	h1 {
 		text-transform: uppercase;
 		font-weight: 300;
 		font-size: $hero-h1-lg;
 		letter-spacing: 5px;
 		line-height: $header-lh + 14px;
+		text-align: center;
+
+		@media only screen and (min-width: 992px) {
+			text-align: left;
+		}
+
 		span {
 			font-weight: 700;
 		}
@@ -76,6 +94,10 @@ a.hero--scrolldown {
 	p {
 		font-size: 16px;
 		line-height: 22px;
+		text-align: center;
+		@media only screen and (min-width: 992px) {
+			text-align: left;
+		}
 	}
 
 	a {
@@ -91,7 +113,18 @@ a.hero--scrolldown {
 	}
 }
 
+.story__image {
+	margin: 50px auto;
+	@media only screen and (min-width: 992px) {
+		margin: 0;
+	}
+}
+
 /// Experience section
+.experience__slide {
+	margin: auto auto 50px auto;
+}
+
 .experience__slide .experience__slide--content {
 	padding-left: 150px;
 	padding-right: 46px;

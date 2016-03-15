@@ -5967,9 +5967,12 @@ body {
 .hero__jumbotron {
   background-image: url("http://alvisng.me/adelphi_coffee/dist/images/adelphi-home-header-bg.jpg");
   background-position: center center;
-  height: 455px;
-  margin-bottom: 0;
-  background-size: cover; }
+  background-size: cover;
+  height: 525px; }
+  @media only screen and (min-width: 992px) {
+    .hero__jumbotron {
+      height: 455px;
+      margin-bottom: 0; } }
 
 .jumbotron.hero__jumbotron {
   border-radius: 0;
@@ -5985,13 +5988,15 @@ body {
   padding-top: 98px; }
 
 h1.hero__jumbotron--title {
-  font-size: 34px;
-  line-height: 24px;
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 5px; }
   h1.hero__jumbotron--title span {
     font-weight: 600; }
+  @media only screen and (min-width: 992px) {
+    h1.hero__jumbotron--title {
+      font-size: 34px;
+      line-height: 24px; } }
 
 p.hero__jumbotron--subtitle {
   font-size: 14px;
@@ -6000,36 +6005,55 @@ p.hero__jumbotron--subtitle {
 a.hero--scrolldown img {
   margin-top: 50px; }
 
-.story__details, .founder__details {
-  padding-left: 46px;
-  padding-right: 170px; }
-
 .menu__details, .chef__details {
   padding-left: 170px;
   padding-right: 46px; }
 
-.story__details, .founder__details {
-  padding-top: 50px; }
-  .story__details h1, .founder__details h1 {
-    text-transform: uppercase;
-    font-weight: 300;
-    font-size: 34px;
-    letter-spacing: 5px;
-    line-height: 38px; }
-    .story__details h1 span, .founder__details h1 span {
-      font-weight: 700; }
-  .story__details p, .founder__details p {
-    font-size: 16px;
-    line-height: 22px; }
-  .story__details a, .founder__details a {
-    font-weight: 16px;
-    font-weight: 700;
-    position: relative;
-    top: 22px;
-    color: #101820; }
-    .story__details a img, .founder__details a img {
-      height: 20px;
-      width: 50px; }
+@media only screen and (min-width: 992px) {
+  .story__details, .founder__details {
+    padding-left: 46px;
+    padding-right: 170px;
+    padding-top: 50px; } }
+
+.story__details h1, .founder__details h1 {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 34px;
+  letter-spacing: 5px;
+  line-height: 38px;
+  text-align: center; }
+  @media only screen and (min-width: 992px) {
+    .story__details h1, .founder__details h1 {
+      text-align: left; } }
+  .story__details h1 span, .founder__details h1 span {
+    font-weight: 700; }
+
+.story__details p, .founder__details p {
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center; }
+  @media only screen and (min-width: 992px) {
+    .story__details p, .founder__details p {
+      text-align: left; } }
+
+.story__details a, .founder__details a {
+  font-weight: 16px;
+  font-weight: 700;
+  position: relative;
+  top: 22px;
+  color: #101820; }
+  .story__details a img, .founder__details a img {
+    height: 20px;
+    width: 50px; }
+
+.story__image {
+  margin: 50px auto; }
+  @media only screen and (min-width: 992px) {
+    .story__image {
+      margin: 0; } }
+
+.experience__slide {
+  margin: auto auto 50px auto; }
 
 .experience__slide .experience__slide--content {
   padding-left: 150px;
@@ -6150,6 +6174,9 @@ ul.masterpiece__menu--pills li.active img, ul.masterpiece__menu--pills li:hover 
     .desktop-brand {
       display: block; } }
 
+.navbar-header {
+  padding-top: 15px; }
+
 .desktop-brand__logo {
   position: absolute;
   height: auto;
@@ -6158,12 +6185,42 @@ ul.masterpiece__menu--pills li.active img, ul.masterpiece__menu--pills li:hover 
   top: 33px;
   margin-left: -111.5px; }
 
+.navbar-left {
+  float: left;
+  margin-left: 15px;
+  z-index: 1; }
+
 @media only screen and (min-width: 992px) {
   .mobile-brand {
     display: none; } }
 
+.mobile-brand__logo {
+  width: 100%;
+  display: block;
+  position: absolute; }
+  .mobile-brand__logo img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%; }
+
+.navigation__list.navigation__social--mobile {
+  position: absolute;
+  margin-top: 0;
+  right: 15px; }
+  .navigation__list.navigation__social--mobile li {
+    display: inline-block; }
+  @media only screen and (min-width: 992px) {
+    .navigation__list.navigation__social--mobile {
+      display: none; } }
+
+.navigation__social--desktop {
+  display: none; }
+  @media only screen and (min-width: 992px) {
+    .navigation__social--desktop {
+      display: block; } }
+
 .navigation .navigation__toggle {
-  border: 1px solid red; }
+  border: none; }
 
 .navigation .navigation--bar {
   background-color: #888; }
