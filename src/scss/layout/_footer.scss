@@ -1,27 +1,31 @@
 footer {
+  font-size: 16px;
+  line-height: 22px;
+  padding-top: 71px;
+  @media only screen and (min-width: 992px) {
     padding-top: 142px;
     padding-bottom: 68px;
-    font-size: 16px;
-    line-height: 22px;
-
-    h2 {
-        font-size: 22px;
-        line-height: 26px;
-        font-weight: 700;
-        margin-top: 0;
+  }
+  h2 {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 700;
+    margin-top: 0;
+  }
+  a {
+    color: #101820;
+    font-weight: 700;
+    &:hover {
+      text-decoration: none;
+      color: inherit;
     }
-
-    a {
-        color: #101820;
-        font-weight: 700;
-        &:hover {
-            text-decoration: none;
-            color: inherit;
-        }
-
-        &:focus {
-            text-decoration: none;
-            color: inherit;
-        }
+    &:focus {
+      text-decoration: none;
+      color: inherit;
     }
+  }
+  .footer__info {
+    padding-top: 35px;
+    padding-bottom: 71px;
+  }
 }

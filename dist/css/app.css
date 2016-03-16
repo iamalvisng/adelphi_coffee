@@ -6005,10 +6005,6 @@ p.hero__jumbotron--subtitle {
 a.hero--scrolldown img {
   margin-top: 50px; }
 
-.menu__details, .chef__details {
-  padding-left: 170px;
-  padding-right: 46px; }
-
 @media only screen and (min-width: 992px) {
   .story__details, .founder__details {
     padding-left: 46px;
@@ -6052,13 +6048,11 @@ a.hero--scrolldown img {
     .story__image {
       margin: 0; } }
 
-.experience__slide {
-  margin: auto auto 50px auto; }
-
-.experience__slide .experience__slide--content {
-  padding-left: 150px;
-  padding-right: 46px;
-  right: 15%; }
+@media only screen and (min-width: 992px) {
+  .experience__slide .experience__slide--content {
+    padding-left: 150px;
+    padding-right: 46px;
+    right: 15%; } }
 
 h1.experience__slide--title {
   font-size: 34px;
@@ -6073,34 +6067,58 @@ p.experience__slide--caption {
   font-size: 16px;
   line-height: 22px; }
 
+@media only screen and (min-width: 992px) {
+  .menu__details, .chef__details {
+    padding-left: 170px;
+    padding-right: 46px;
+    padding-top: 50px; } }
+
+.menu__details h1, .chef__details h1 {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 34px;
+  letter-spacing: 5px;
+  line-height: 38px;
+  text-align: center; }
+  @media only screen and (min-width: 992px) {
+    .menu__details h1, .chef__details h1 {
+      text-align: left; } }
+  .menu__details h1 span, .chef__details h1 span {
+    font-weight: 700; }
+
+.menu__details p, .chef__details p {
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center; }
+  @media only screen and (min-width: 992px) {
+    .menu__details p, .chef__details p {
+      text-align: left; } }
+
+.menu__details p.menu__link, .chef__details p.menu__link {
+  position: relative;
+  top: 22px;
+  text-align: center; }
+  @media only screen and (min-width: 992px) {
+    .menu__details p.menu__link, .chef__details p.menu__link {
+      text-align: left; } }
+
+.menu__details a, .chef__details a {
+  font-weight: 16px;
+  font-weight: 700;
+  color: #101820;
+  text-decoration: none;
+  border-bottom: 1px solid #000000; }
+
 .menu__details, .chef__details {
-  padding-top: 50px; }
-  .menu__details h1, .chef__details h1 {
-    text-transform: uppercase;
-    font-weight: 300;
-    font-size: 34px;
-    letter-spacing: 5px;
-    line-height: 38px; }
-    .menu__details h1 span, .chef__details h1 span {
-      font-weight: 700; }
-  .menu__details p, .chef__details p {
-    font-size: 16px;
-    line-height: 22px; }
-  .menu__details p.menu__link, .chef__details p.menu__link {
-    position: relative;
-    top: 22px; }
-  .menu__details a, .chef__details a {
-    font-weight: 16px;
-    font-weight: 700;
-    color: #101820;
-    text-decoration: none;
-    border-bottom: 1px solid #000000; }
+  margin: 50px auto; }
 
 .menu__image {
   position: relative; }
+  @media only screen and (min-width: 992px) {
+    .menu__image {
+      margin: 0; } }
 
 .menu__direct {
-  position: absolute;
   display: block;
   width: 100%;
   height: 100%; }
@@ -6108,7 +6126,7 @@ p.experience__slide--caption {
     color: #FFFFFF;
     font-weight: 700;
     position: absolute;
-    right: 30px;
+    right: 15px;
     text-decoration: none;
     bottom: 0;
     z-index: 1;
@@ -6120,6 +6138,18 @@ p.experience__slide--caption {
 
 .hero--about {
   background-image: url("http://alvisng.me/adelphi_coffee/dist/images/adelphi-about-header-bg.jpg"); }
+
+.chef .story__moment {
+  margin-bottom: auto; }
+
+.chef__details {
+  margin-top: auto; }
+
+.story__moment {
+  margin: 50px auto; }
+  @media only screen and (min-width: 992px) {
+    .story__moment {
+      margin: 0; } }
 
 .hero--menu {
   background-image: url("http://alvisng.me/adelphi_coffee/dist/images/adelphi-menu-header-bg.jpg"); }
@@ -6248,17 +6278,30 @@ img.navigation--instagram {
 
 .experience__slide {
   position: relative; }
+  .experience__slide img {
+    height: 350px; }
+    @media only screen and (min-width: 992px) {
+      .experience__slide img {
+        height: auto; } }
 
 .experience__slide--content {
-  width: 50%;
-  height: 100%;
-  margin: auto;
   position: absolute;
-  overflow: auto;
-  top: 190px;
-  left: auto;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
   bottom: 0;
   right: 0; }
+  @media only screen and (min-width: 992px) {
+    .experience__slide--content {
+      width: 50%;
+      height: 100%;
+      margin: auto;
+      overflow: auto;
+      top: 190px;
+      left: auto;
+      bottom: 0;
+      right: 0; } }
 
 .experience__slide--title,
 .experience__slide--caption {
@@ -6291,10 +6334,13 @@ img.navigation--instagram {
   font-weight: bold; }
 
 footer {
-  padding-top: 142px;
-  padding-bottom: 68px;
   font-size: 16px;
-  line-height: 22px; }
+  line-height: 22px;
+  padding-top: 71px; }
+  @media only screen and (min-width: 992px) {
+    footer {
+      padding-top: 142px;
+      padding-bottom: 68px; } }
   footer h2 {
     font-size: 22px;
     line-height: 26px;
@@ -6309,3 +6355,6 @@ footer {
     footer a:focus {
       text-decoration: none;
       color: inherit; }
+  footer .footer__info {
+    padding-top: 35px;
+    padding-bottom: 71px; }

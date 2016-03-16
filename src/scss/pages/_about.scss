@@ -6,6 +6,20 @@
     @extend .story__details;
 }
 
+.chef {
+    .story__moment {
+        margin-bottom: auto;
+    }
+}
+
 .chef__details {
     @extend .menu__details;
+    margin-top: auto;
+}
+
+.story__moment {
+    margin: 50px auto;
+    @media only screen and (min-width: 992px) {
+        margin: 0;
+    }
 }

@@ -11,7 +11,7 @@
         <nav class="navbar navigation">
             <div class="container">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed navigation__toggle" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
+                    <button type="button" class="navbar-toggle collapsed navigation__toggle navbar-left" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar navigation--bar"></span>
                         <span class="icon-bar navigation--bar"></span>
@@ -19,9 +19,21 @@
                     </button>
                     <div class="mobile-brand">
                         <a class="navbar-brand mobile-brand__logo" href="#">
-                            <img class="img-responsive" alt="Brand" src="http://placehold.it/50x50">
+                            <img class="img-responsive" alt="Brand" src="./images/Adelphi-&-Co-logo.png">
                         </a>
                     </div>
+                    <ul class="nav navbar-nav navbar-right navigation__list navigation__social--mobile">
+                        <li>
+                            <a href="https://www.facebook.com/adelphicoffee" class="navigation--link">
+                                <img class="navigation--facebook" src="./images/Facebook-icon.png" alt="Adelphi & Co @ Facebook"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/adelphi_coffee/" class="navigation--link">
+                                <img class="navigation--instagram" src="./images/Instagram-icon.png" alt="Adelphi & Co @ Instagram"/>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
                 <div class="desktop-brand">
                     <a class="navbar-brand" href="index.html">
@@ -35,7 +47,7 @@
                             <a href="index.html" class="navigation--link">Home</a>
                         </li>
                         <li class="active">
-                            <a href="index.html" class="navigation--link">About
+                            <a href="about.html" class="navigation--link">About
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
@@ -43,7 +55,7 @@
                             <a href="menu.html" class="navigation--link">Menu</a>
                         </li>
                     </ul>
-                    <ul class="nav navbar-nav navbar-right navigation__list">
+                    <ul class="nav navbar-nav navbar-right navigation__list navigation__social--desktop">
                         <li>
                             <a href="https://www.facebook.com/adelphicoffee" class="navigation--link">
                                 <img class="navigation--facebook" src="./images/Facebook-icon.png" alt="Adelphi & Co @ Facebook"/>
@@ -95,10 +107,7 @@
 
         <div class="container chef">
             <div class="row">
-                <div class="col-sm-12 col-md-6 story__moment">
-                    <img class="img-responsive" src="./images/adelphi-founder-bg.jpg"/>
-                </div>
-                <div class="col-sm-12 col-md-6 chef__details">
+                <div class="col-sm-12 col-md-6 chef__details pull-right">
                     <h1>Chef <span>Jimmy</span></h1>
                     <p>
                         Developed a passion for cooking, learning from the finest from a Michelin-starred restaurant and now cooking a storm in this vibrant city with a taste for great food. Here Jimmy shares about what inspires him through his menu.
@@ -111,14 +120,17 @@
                         <a href="#">seasonal menu</a>
                     </p>
                 </div>
+                <div class="col-sm-12 col-md-6 story__moment">
+                    <img class="img-responsive" src="./images/adelphi-founder-bg.jpg"/>
+                </div>
             </div>
         </div>
         <!-- /.story -->
 
-        <div class="container">
+        <div class="container footer">
             <footer>
                 <div class="row">
-                    <div class="col-md-4 col-md-push-2">
+                    <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-push-2 footer__add">
                         <p>
                             No.24, Damai Plaza<br/>
                             Luyang, 88300 Kota Kinabalu<br/>
@@ -132,7 +144,7 @@
                         9am to 10pm<br/>
                     </p>
                 </div>
-                <div class="col-md-4 col-md-push-2">
+                <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-push-2 footer__info">
                     <h2>Careers</h2>
                     <p>
                         For interested applicants, please forward your resume to
