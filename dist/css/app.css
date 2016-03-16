@@ -5990,13 +5990,15 @@ body {
 h1.hero__jumbotron--title {
   font-weight: 300;
   text-transform: uppercase;
-  letter-spacing: 5px; }
+  letter-spacing: 5px;
+  font-size: 26px;
+  line-height: 36px; }
   h1.hero__jumbotron--title span {
     font-weight: 600; }
   @media only screen and (min-width: 992px) {
     h1.hero__jumbotron--title {
       font-size: 34px;
-      line-height: 24px; } }
+      line-height: 44px; } }
 
 p.hero__jumbotron--subtitle {
   font-size: 14px;
@@ -6008,29 +6010,47 @@ a.hero--scrolldown img {
 @media only screen and (min-width: 992px) {
   .story__details, .founder__details {
     padding-left: 46px;
+    padding-right: 150px;
+    padding-top: 25px; } }
+
+@media only screen and (min-width: 1200px) {
+  .story__details, .founder__details {
+    padding-left: 46px;
     padding-right: 170px;
     padding-top: 50px; } }
 
 .story__details h1, .founder__details h1 {
   text-transform: uppercase;
   font-weight: 300;
-  font-size: 34px;
+  font-size: 26px;
+  line-height: 36px;
   letter-spacing: 5px;
-  line-height: 38px;
   text-align: center; }
   @media only screen and (min-width: 992px) {
     .story__details h1, .founder__details h1 {
+      font-size: 30px;
+      line-height: 40px;
       text-align: left; } }
+  @media only screen and (min-width: 1200px) {
+    .story__details h1, .founder__details h1 {
+      font-size: 34px;
+      line-height: 58px; } }
   .story__details h1 span, .founder__details h1 span {
     font-weight: 700; }
 
 .story__details p, .founder__details p {
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 14px;
+  line-height: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
   text-align: center; }
   @media only screen and (min-width: 992px) {
     .story__details p, .founder__details p {
-      text-align: left; } }
+      text-align: left;
+      padding-left: 0;
+      padding-right: 0;
+      font-size: 16px;
+      line-height: 22px; } }
 
 .story__details a, .founder__details a {
   font-weight: 16px;
@@ -6047,6 +6067,10 @@ a.hero--scrolldown img {
   @media only screen and (min-width: 992px) {
     .story__image {
       margin: 0; } }
+  @media only screen and (min-width: 480px) {
+    .story__image img {
+      width: 100%;
+      height: auto; } }
 
 @media only screen and (min-width: 992px) {
   .experience__slide .experience__slide--content {
@@ -6055,19 +6079,32 @@ a.hero--scrolldown img {
     right: 15%; } }
 
 h1.experience__slide--title {
-  font-size: 34px;
-  line-height: 38px;
+  font-size: 26px;
   text-transform: uppercase;
   font-weight: 300;
   letter-spacing: 5px; }
+  @media only screen and (min-width: 992px) {
+    h1.experience__slide--title {
+      font-size: 34px;
+      line-height: 58px; } }
   h1.experience__slide--title span {
     font-weight: 700; }
 
 p.experience__slide--caption {
-  font-size: 16px;
-  line-height: 22px; }
+  font-size: 14px;
+  line-height: 20px; }
+  @media only screen and (min-width: 992px) {
+    p.experience__slide--caption {
+      font-size: 16px;
+      line-height: 22px; } }
 
 @media only screen and (min-width: 992px) {
+  .menu__details, .chef__details {
+    padding-left: 150px;
+    padding-right: 46px;
+    padding-top: 25px; } }
+
+@media only screen and (min-width: 1200px) {
   .menu__details, .chef__details {
     padding-left: 170px;
     padding-right: 46px;
@@ -6076,22 +6113,34 @@ p.experience__slide--caption {
 .menu__details h1, .chef__details h1 {
   text-transform: uppercase;
   font-weight: 300;
-  font-size: 34px;
+  font-size: 26px;
+  line-height: 36px;
   letter-spacing: 5px;
-  line-height: 38px;
   text-align: center; }
   @media only screen and (min-width: 992px) {
     .menu__details h1, .chef__details h1 {
+      font-size: 30px;
+      line-height: 40px;
       text-align: left; } }
+  @media only screen and (min-width: 1200px) {
+    .menu__details h1, .chef__details h1 {
+      font-size: 34px;
+      line-height: 58px; } }
   .menu__details h1 span, .chef__details h1 span {
     font-weight: 700; }
 
 .menu__details p, .chef__details p {
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 14px;
+  line-height: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
   text-align: center; }
   @media only screen and (min-width: 992px) {
     .menu__details p, .chef__details p {
+      font-size: 16px;
+      padding-left: 0;
+      padding-right: 0;
+      line-height: 22px;
       text-align: left; } }
 
 .menu__details p.menu__link, .chef__details p.menu__link {
@@ -6111,9 +6160,16 @@ p.experience__slide--caption {
 
 .menu__details, .chef__details {
   margin: 50px auto; }
+  @media only screen and (min-width: 992px) {
+    .menu__details, .chef__details {
+      margin: 0 auto; } }
 
 .menu__image {
   position: relative; }
+  @media only screen and (min-width: 480px) {
+    .menu__image img {
+      width: 100%;
+      height: 100%; } }
   @media only screen and (min-width: 992px) {
     .menu__image {
       margin: 0; } }
@@ -6138,9 +6194,19 @@ p.experience__slide--caption {
 
 .hero--about {
   background-image: url("http://alvisng.me/adelphi_coffee/dist/images/adelphi-about-header-bg.jpg"); }
+  .hero--about .hero__jumbotron--title {
+    line-height: 36px; }
+    @media only screen and (min-width: 992px) {
+      .hero--about .hero__jumbotron--title {
+        line-height: 44px; } }
 
 .chef .story__moment {
   margin-bottom: auto; }
+
+@media only screen and (min-width: 480px) {
+  .story__moment img {
+    width: 100%;
+    height: 100%; } }
 
 .chef__details {
   margin-top: auto; }
@@ -6154,7 +6220,12 @@ p.experience__slide--caption {
 .hero--menu {
   background-image: url("http://alvisng.me/adelphi_coffee/dist/images/adelphi-menu-header-bg.jpg"); }
   .hero--menu .hero__jumbotron--title {
-    line-height: 44px; }
+    line-height: 36px; }
+    @media only screen and (min-width: 992px) {
+      .hero--menu .hero__jumbotron--title {
+        line-height: 44px;
+        padding-left: 250px;
+        padding-right: 250px; } }
   .hero--menu .hero__jumbotron--subtitle span {
     font-weight: 600;
     font-style: italic; }
@@ -6258,6 +6329,9 @@ ul.masterpiece__menu--pills li.active img, ul.masterpiece__menu--pills li:hover 
 .navigation__list {
   margin-top: 20px; }
 
+.navbar-collapse .navigation__list li {
+  text-align: center; }
+
 img.navigation--facebook {
   width: 11px;
   height: 20px; }
@@ -6292,7 +6366,14 @@ img.navigation--instagram {
   left: 0;
   bottom: 0;
   right: 0; }
-  @media only screen and (min-width: 992px) {
+  @media only screen and (min-width: 480px) {
+    .experience__slide--content {
+      width: 90%;
+      height: 100%;
+      margin: auto;
+      text-align: center;
+      top: 50%; } }
+  @media only screen and (min-width: 1200px) {
     .experience__slide--content {
       width: 50%;
       height: 100%;
@@ -6334,18 +6415,24 @@ img.navigation--instagram {
   font-weight: bold; }
 
 footer {
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 14px;
+  line-height: 20px;
   padding-top: 71px; }
   @media only screen and (min-width: 992px) {
     footer {
+      font-size: 16px;
+      line-height: 22px;
       padding-top: 142px;
       padding-bottom: 68px; } }
   footer h2 {
-    font-size: 22px;
-    line-height: 26px;
     font-weight: 700;
-    margin-top: 0; }
+    margin-top: 0;
+    font-size: 20px;
+    line-height: 24px; }
+    @media only screen and (min-width: 992px) {
+      footer h2 {
+        font-size: 22px;
+        line-height: 26px; } }
   footer a {
     color: #101820;
     font-weight: 700; }
@@ -6358,3 +6445,9 @@ footer {
   footer .footer__info {
     padding-top: 35px;
     padding-bottom: 71px; }
+  footer .footer__copyright {
+    font-size: 11px;
+    color: #7598ba; }
+    @media only screen and (min-width: 992px) {
+      footer .footer__copyright {
+        font-size: 13px; } }

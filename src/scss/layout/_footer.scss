@@ -1,16 +1,22 @@
 footer {
-  font-size: 16px;
-  line-height: 22px;
+  font-size: $body-p-xs;
+  line-height: $body-lh-xs;
   padding-top: 71px;
   @media only screen and (min-width: 992px) {
+    font-size: $body-p-lg;
+    line-height: $body-lh-lg;
     padding-top: 142px;
     padding-bottom: 68px;
   }
   h2 {
-    font-size: 22px;
-    line-height: 26px;
     font-weight: 700;
     margin-top: 0;
+    font-size: 20px;
+    line-height: 24px;
+    @media only screen and (min-width: 992px) {
+      font-size: 22px;
+      line-height: 26px;
+    }
   }
   a {
     color: #101820;
@@ -27,5 +33,13 @@ footer {
   .footer__info {
     padding-top: 35px;
     padding-bottom: 71px;
+  }
+
+  .footer__copyright {
+    font-size: 11px;
+    color: lighten(#101820, 50%);
+    @media only screen and (min-width: 992px) {
+      font-size: 13px; 
+    }
   }
 }

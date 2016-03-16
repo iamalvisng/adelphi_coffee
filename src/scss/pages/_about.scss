@@ -1,5 +1,11 @@
 .hero--about {
     background-image: url('http://alvisng.me/adelphi_coffee/dist/images/adelphi-about-header-bg.jpg');
+    .hero__jumbotron--title {
+        line-height: $header-lh-xs;
+        @media only screen and (min-width: 992px) {
+            line-height: $header-lh;
+        }
+    }
 }
 
 .founder__details {
@@ -10,6 +16,15 @@
     .story__moment {
         margin-bottom: auto;
     }
+}
+
+.story__moment {
+    @media only screen and (min-width : 480px) {
+		img {
+			width: 100%;
+			height: 100%;
+		}
+	}
 }
 
 .chef__details {

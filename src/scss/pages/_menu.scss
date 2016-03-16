@@ -1,7 +1,12 @@
 .hero--menu {
     background-image: url('http://alvisng.me/adelphi_coffee/dist/images/adelphi-menu-header-bg.jpg');
     .hero__jumbotron--title {
-        line-height: 44px;
+        line-height: $header-lh-xs;
+        @media only screen and (min-width: 992px) {
+            line-height: $header-lh;
+            padding-left: 250px;
+            padding-right: 250px;
+        }
     }
 
     .hero__jumbotron--subtitle span {
