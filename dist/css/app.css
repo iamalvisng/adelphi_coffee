@@ -5964,6 +5964,9 @@ html,
 body {
   font-family: 'Open Sans', sans-serif; }
 
+body {
+  background-color: #F4F5F9; }
+
 .hero__jumbotron {
   background-image: url("http://alvisng.me/adelphi_coffee/dist/images/adelphi-home-header-bg.jpg");
   background-position: center center;
@@ -6268,6 +6271,9 @@ ul.masterpiece__menu--pills li.active img, ul.masterpiece__menu--pills li:hover 
 .masterpiece__menu-each:not(:last-child) {
   padding-bottom: 20px; }
 
+.booking-cal {
+  margin-top: 5%; }
+
 .desktop-brand {
   position: relative;
   display: none; }
@@ -6299,10 +6305,21 @@ ul.masterpiece__menu--pills li.active img, ul.masterpiece__menu--pills li:hover 
   width: 100%;
   display: block;
   position: absolute; }
+  @media only screen and (min-width: 768px) {
+    .mobile-brand__logo {
+      position: relative !important;
+      display: block;
+      margin-left: auto !important;
+      margin-right: auto !important; } }
   .mobile-brand__logo img {
     margin-left: auto;
     margin-right: auto;
     width: 35%; }
+    @media only screen and (min-width: 768px) {
+      .mobile-brand__logo img {
+        position: relative;
+        top: -45px;
+        width: 30%; } }
 
 .navigation__list.navigation__social--mobile {
   position: absolute;
@@ -6310,6 +6327,9 @@ ul.masterpiece__menu--pills li.active img, ul.masterpiece__menu--pills li:hover 
   right: 15px; }
   .navigation__list.navigation__social--mobile li {
     display: inline-block; }
+  @media only screen and (min-width: 768px) {
+    .navigation__list.navigation__social--mobile {
+      margin: 0; } }
   @media only screen and (min-width: 992px) {
     .navigation__list.navigation__social--mobile {
       display: none; } }
@@ -6346,9 +6366,59 @@ img.navigation--instagram {
   font-weight: 300; }
   .navigation__list a.navigation--link:hover {
     background: none; }
+  @media only screen and (min-width: 768px) {
+    .navigation__list a.navigation--link {
+      font-size: 14px !important; } }
+  @media only screen and (min-width: 1200px) {
+    .navigation__list a.navigation--link {
+      font-size: 18px !important; } }
 
 .navigation .active .navigation--link {
   font-weight: 600; }
+
+a.navigation--link.navigation--book {
+  cursor: pointer;
+  background: #F2385A;
+  color: #FFFFFF;
+  border: 1px solid #F2385A;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: auto; }
+  @media only screen and (min-width: 480px) {
+    a.navigation--link.navigation--book {
+      width: 50%;
+      height: auto; } }
+  @media only screen and (min-width: 768px) {
+    a.navigation--link.navigation--book {
+      width: 100%;
+      height: auto; } }
+  @media only screen and (min-width: 1200px) {
+    a.navigation--link.navigation--book {
+      background: none;
+      color: #F2385A; }
+      a.navigation--link.navigation--book:hover, a.navigation--link.navigation--book:focus {
+        background: #F2385A;
+        color: #FFFFFF; } }
+
+@media (max-width: 1200px) {
+  .navbar-header {
+    float: none; }
+  .navbar-toggle {
+    display: block; }
+  .navbar-collapse.collapse {
+    display: none !important; }
+  .navbar-nav {
+    float: none !important;
+    margin-top: 7.5px; }
+  .navbar-nav > li {
+    float: none; }
+  .collapse.in {
+    display: block !important; } }
 
 .experience__slide {
   position: relative; }

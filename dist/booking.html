@@ -1,0 +1,148 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <nav class="navbar navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed navigation__toggle navbar-left" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar navigation--bar"></span>
+            <span class="icon-bar navigation--bar"></span>
+            <span class="icon-bar navigation--bar"></span>
+          </button>
+          <div class="mobile-brand">
+            <a class="navbar-brand mobile-brand__logo" href="#">
+              <img class="img-responsive" alt="Brand" src="./images/Adelphi-&-Co-logo.png">
+            </a>
+          </div>
+          <ul class="nav navbar-nav navbar-right navigation__list navigation__social--mobile">
+            <li>
+              <a href="https://www.facebook.com/adelphicoffee" class="navigation--link">
+                <img class="navigation--facebook" src="./images/Facebook-icon.png" alt="Adelphi & Co @ Facebook"/>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/adelphi_coffee/" class="navigation--link">
+                <img class="navigation--instagram" src="./images/Instagram-icon.png" alt="Adelphi & Co @ Instagram"/>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="desktop-brand">
+          <a class="navbar-brand" href="index.html">
+            <img class="img-responsive desktop-brand__logo" alt="Adelphi & Co Logo" src="./images/Adelphi-&-Co-logo.png">
+          </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="main-nav">
+          <ul class="nav navbar-nav navigation__list">
+            <li class="active">
+              <a href="index.html" class="navigation--link">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li>
+              <a href="about.html" class="navigation--link">About</a>
+            </li>
+            <li>
+              <a href="menu.html" class="navigation--link">Menu</a>
+            </li>
+            <li>
+              <a href="booking.html" class="navigation--link navigation--book">Book a seat</a>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right navigation__list navigation__social--desktop">
+            <li>
+              <a href="https://www.facebook.com/adelphicoffee" class="navigation--link">
+                <img class="navigation--facebook" src="./images/Facebook-icon.png" alt="Adelphi & Co @ Facebook"/>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/adelphi_coffee/" class="navigation--link">
+                <img class="navigation--instagram" src="./images/Instagram-icon.png" alt="Adelphi & Co @ Instagram"/>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+    </nav>
+    <!-- /nav -->
+
+    <div class="container booking-cal">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="bookingjs">
+                  <script type="text/javascript" src="http://cdn.timekit.io/booking-js/v1/booking.min.js" defer></script>
+                  <script type="text/javascript">
+                    window.timekitBookingConfig = {
+                      name: 'Boon Ping',
+                      email: 'alvis.ngboonping@gmail.com',
+                      apiToken: 'B4LF8jk8AdtJNob4gvHIJqeIKQVNwOlt',
+                      calendar: '6c0b076a-1870-4f00-9843-cd6eb06decb3',
+                      avatar: 'https://lh3.googleusercontent.com/-4W88KE_vw9o/AAAAAAAAAAI/AAAAAAAAABI/NrdRPnSsufg/photo.jpg',
+                      timekitFindTime: {
+                        filters: {
+                          and: [
+                            {
+                              business_hours: {}
+                            }, {
+                              exclude_weekend: {}
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  </script>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container footer">
+      <footer>
+        <div class="row">
+          <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-push-1 footer__add">
+            <p>
+              No.24, Damai Plaza<br/>
+              Luyang, 88300 Kota Kinabalu<br/>
+            </p>
+            <p>
+              T. +6089-746-876<br/>
+              E. info@adelphiadnco.com<br/>
+            </p>
+            <p>
+              Monday to Saturday</br />
+            9am to 10pm<br/>
+          </p>
+        </div>
+        <div class="col-xs-10 col-xs-offset-1 col-md-4 footer__info">
+          <h2>Careers</h2>
+          <p>
+            For interested applicants, please forward your resume to
+            <a href="mailto:careers@adelphiandco.com?Subject=Job%20aplication">careers@adelphiandco.com</a>
+          </p>
+          <p class="footer__copyright">
+            &copy; 2016 Adelphi & Co. All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="http://www.alvisng.me/adelphi_coffee/dist/js/jquery.js"></script>
+  <script src="http://www.alvisng.me/adelphi_coffee/dist/js/bootstrap.js"></script>
+  <script src="http://www.alvisng.me/adelphi_coffee/dist/js/owl.carousel.js"></script>
+  <script src="http://www.alvisng.me/adelphi_coffee/dist/js/smooth-scroll.js"></script>
+  <script src="http://www.alvisng.me/adelphi_coffee/dist/js/app.js"></script>
+</body>
+</html>
