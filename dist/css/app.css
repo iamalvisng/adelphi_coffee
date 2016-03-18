@@ -6329,7 +6329,8 @@ ul.masterpiece__menu--pills li.active img, ul.masterpiece__menu--pills li:hover 
     display: inline-block; }
   @media only screen and (min-width: 768px) {
     .navigation__list.navigation__social--mobile {
-      margin: 0; } }
+      margin: 0;
+      margin-right: 10%; } }
   @media only screen and (min-width: 992px) {
     .navigation__list.navigation__social--mobile {
       display: none; } }
@@ -6405,7 +6406,7 @@ a.navigation--link.navigation--book {
         background: #F2385A;
         color: #FFFFFF; } }
 
-@media (max-width: 1200px) {
+@media (max-width: 992px) {
   .navbar-header {
     float: none; }
   .navbar-toggle {
