@@ -79,33 +79,26 @@
     <!-- /nav -->
 
     <div class="container booking-cal">
-        <div class="row">
-            <div class="col-md-12">
-                <div id="bookingjs">
-                  <script type="text/javascript" src="http://cdn.timekit.io/booking-js/v1/booking.min.js" defer></script>
-                  <script type="text/javascript">
-                    window.timekitBookingConfig = {
-                      name: 'Boon Ping',
-                      email: 'alvis.ngboonping@gmail.com',
-                      apiToken: 'B4LF8jk8AdtJNob4gvHIJqeIKQVNwOlt',
-                      calendar: '6c0b076a-1870-4f00-9843-cd6eb06decb3',
-                      avatar: 'https://lh3.googleusercontent.com/-4W88KE_vw9o/AAAAAAAAAAI/AAAAAAAAABI/NrdRPnSsufg/photo.jpg',
-                      timekitFindTime: {
-                        filters: {
-                          and: [
-                            {
-                              business_hours: {}
-                            }, {
-                              exclude_weekend: {}
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  </script>
-                </div>
-            </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div id="bookingjs">
+            <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+            <script type="text/javascript" src="http://cdn.timekit.io/booking-js/v1/booking.min.js" defer></script>
+            <script type="text/javascript">
+              window.timekitBookingConfig = {
+                name: 'Adelphi & Co',
+                email: 'adelphiandco@gmail.com',
+                apiToken: 'r5uxzlBSii5tQEDiTmoD4I8Gr2ntWekB',
+                calendar: 'a31fba14-1a43-49b8-aa97-014d3b2e9995',
+                avatar: 'https://lh3.googleusercontent.com/-1jmN-9EpK7I/AAAAAAAAAAI/AAAAAAAAAAc/_9TBZW075y0/photo.jpg',
+                timekitFindTime: {
+                  length: '1 hour'
+                }
+              }
+            </script>
+          </div>
         </div>
+      </div>
     </div>
 
     <div class="container footer">
