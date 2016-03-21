@@ -6233,6 +6233,12 @@ p.experience__slide--caption {
     font-weight: 600;
     font-style: italic; }
 
+.masterpiece .tab-pane .tab-inner {
+  padding: 50px 0 20px; }
+  @media only screen and (min-width: 768px) {
+    .masterpiece .tab-pane .tab-inner {
+      padding-top: 86px 0 20px; } }
+
 .masterpiece--title {
   text-transform: uppercase;
   font-weight: 300;
@@ -6247,26 +6253,42 @@ ul.masterpiece__menu--pills li a {
   color: rgba(16, 24, 32, 0.5);
   font-weight: 700; }
   ul.masterpiece__menu--pills li a p {
-    padding-top: 18px; }
+    padding-top: 18px;
+    font-size: 12px; }
+    @media only screen and (min-width: 768px) {
+      ul.masterpiece__menu--pills li a p {
+        font-size: 14px; } }
   ul.masterpiece__menu--pills li a:hover, ul.masterpiece__menu--pills li a:focus {
     background-color: transparent;
     color: #101820; }
 
 ul.masterpiece__menu--pills img {
-  width: 66px;
-  height: 66px;
+  width: 33px;
+  height: 33px;
   opacity: 0.3;
   transition: all 0.3s 0s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+  @media only screen and (min-width: 768px) {
+    ul.masterpiece__menu--pills img {
+      width: 66px;
+      height: 66px; } }
 
-ul.masterpiece__menu--pills li.active img, ul.masterpiece__menu--pills li:hover img, ul.masterpiece__menu--pills li:focus img {
-  opacity: 1;
-  -webkit-transform: none;
-      -ms-transform: none;
-          transform: none;
-  transition: all 0.3s 0s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+ul.masterpiece__menu--pills li {
+  display: inline-block; }
+  @media only screen and (min-width: 768px) {
+    ul.masterpiece__menu--pills li {
+      display: table-cell; } }
+  ul.masterpiece__menu--pills li.active img, ul.masterpiece__menu--pills li:hover img, ul.masterpiece__menu--pills li:focus img {
+    opacity: 1;
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
+    transition: all 0.3s 0s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
 
-.tab-pane .tab-inner {
-  padding: 86px 0 20px; }
+ul.masterpiece__menu--pills a {
+  padding: 10px; }
+  @media only screen and (min-width: 768px) {
+    ul.masterpiece__menu--pills a {
+      padding: 10px 15px; } }
 
 .masterpiece__menu-each:not(:last-child) {
   padding-bottom: 20px; }
