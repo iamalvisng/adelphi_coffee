@@ -6008,7 +6008,8 @@ p.hero__jumbotron--subtitle {
   padding-top: 33px; }
 
 a.hero--scrolldown img {
-  margin-top: 50px; }
+  margin-top: 50px;
+  width: 25px !important; }
 
 @media only screen and (min-width: 992px) {
   .story__details, .founder__details {
@@ -6234,9 +6235,7 @@ p.experience__slide--caption {
     line-height: 36px; }
     @media only screen and (min-width: 992px) {
       .hero--menu .hero__jumbotron--title {
-        line-height: 44px;
-        padding-left: 250px;
-        padding-right: 250px; } }
+        line-height: 44px; } }
   .hero--menu .hero__jumbotron--subtitle span {
     font-weight: 600;
     font-style: italic; }
@@ -6491,6 +6490,10 @@ a.navigation--link.navigation--book {
 
 .owl-theme .owl-nav {
   margin-top: 0; }
+
+.owl-controls {
+  position: relative;
+  bottom: 20px; }
 
 .owl-dots {
   position: absolute;
