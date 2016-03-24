@@ -6303,6 +6303,9 @@ ul.masterpiece__menu--pills a {
 .booking-cal {
   margin-top: 5%; }
 
+.bookingjs-poweredby {
+  display: none; }
+
 .desktop-brand {
   position: relative;
   display: none; }
