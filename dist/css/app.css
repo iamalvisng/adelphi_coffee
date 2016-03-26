@@ -6300,6 +6300,9 @@ ul.masterpiece__menu--pills a {
 .masterpiece__menu-each:not(:last-child) {
   padding-bottom: 20px; }
 
+.grayed {
+  opacity: 0.5; }
+
 .booking-cal {
   margin-top: 5%; }
 
