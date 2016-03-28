@@ -1,0 +1,4 @@
+User-agent: *``
+Disallow: /images/
+
+Sitemap: http://www.adelphicoffee.com/sitemap.xml

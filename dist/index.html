@@ -1,257 +1,287 @@
 <!doctype html>
 <html class="no-js" lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Foundation for Sites</title>
-        <link rel="stylesheet" href="css/app.css">
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
-    </head>
-    <body>
-        <nav class="navbar navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed navigation__toggle navbar-left" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar navigation--bar"></span>
-                        <span class="icon-bar navigation--bar"></span>
-                        <span class="icon-bar navigation--bar"></span>
-                    </button>
-                    <div class="mobile-brand">
-                        <a class="navbar-brand mobile-brand__logo" href="#">
-                            <img class="img-responsive" alt="Brand" src="./images/Adelphi-&-Co-logo.png">
-                        </a>
-                    </div>
-                    <ul class="nav navbar-nav navbar-right navigation__list navigation__social--mobile">
-                        <li>
-                            <a href="https://www.facebook.com/adelphicoffee" class="navigation--link">
-                                <img class="navigation--facebook" src="./images/Facebook-icon.png" alt="Adelphi & Co @ Facebook"/>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/adelphi_coffee/" class="navigation--link">
-                                <img class="navigation--instagram" src="./images/Instagram-icon.png" alt="Adelphi & Co @ Instagram"/>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="desktop-brand">
-                    <a class="navbar-brand" href="index.html">
-                        <img class="img-responsive desktop-brand__logo" alt="Adelphi & Co Logo" src="./images/Adelphi-&-Co-logo.png">
-                    </a>
-                </div>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-                <div class="collapse navbar-collapse" id="main-nav">
-                    <ul class="nav navbar-nav navigation__list">
-                        <li class="active">
-                            <a href="index.html" class="navigation--link">Home
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="about.html" class="navigation--link">About</a>
-                        </li>
-                        <li>
-                            <a href="menu.html" class="navigation--link">Menu</a>
-                        </li>
-                        <li>
-                            <a href="booking.html" class="navigation--link navigation--book">Book a seat</a>
-                        </li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right navigation__list navigation__social--desktop">
-                        <li>
-                            <a href="https://www.facebook.com/adelphicoffee" class="navigation--link">
-                                <img class="navigation--facebook" src="./images/Facebook-icon.png" alt="Adelphi & Co @ Facebook"/>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/adelphi_coffee/" class="navigation--link">
-                                <img class="navigation--instagram" src="./images/Instagram-icon.png" alt="Adelphi & Co @ Instagram"/>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container -->
-        </nav>
-        <!-- /nav -->
+    <meta name=”robots” content=”index,follow,archive”/>
+    <meta name="description" content="155 Chars">
 
-        <div class="container hero">
-            <div class="jumbotron hero__jumbotron text-center">
-                <div class="hero__jumbotron--inner">
-                    <h1 class="hero__jumbotron--title">A new
-                        <span>experience</span>
-                    </h1>
-                    <p class="hero__jumbotron--subtitle">
-                        A journey towards our flagship cafe.<br/>
-                        A sip is memorable and a taste is beyond imagination.
-                    </p>
-                    <a data-scroll href="#story" class="hero--scrolldown">
-                        <img src="images/right-arrow.svg" alt=""/>
-                    </a>
-                </div>
-            </div>
+    <title>Adelphi &amp; Co.</title>
+
+    <!-- Facebook OG-->
+    <meta property="og:title" content="Adelphi Coffee &amp; Co."/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://fbcdn-photos-c-a.akamaihd.net/hphotos-ak-xft1/t31.0-0/p640x640/12716235_1673603889564680_3922678054940514917_o.jpg"/>
+    <meta property=”og:url” content=”http://www.adelphicoffee.com”/>
+    <meta property="og:description" content="297 Chars"/>
+    <!-- https://developers.facebook.com/docs/platforminsights/domains -->
+    <meta property=”fb:admins” content=”USER_ID”/>
+
+    <!-- Twitter OG-->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="http://www.adelphicoffee.com">
+    <meta name="twitter:title" content="Adelphi Coffee">
+    <meta name="twitter:description" content="Description of cotent limited to 200 chars">
+    <meta name="twitter:image" content="perfect-suqare-img.jpg">
+
+    <link rel="stylesheet" href="css/app.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <nav class="navbar navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed navigation__toggle navbar-left" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar navigation--bar"></span>
+            <span class="icon-bar navigation--bar"></span>
+            <span class="icon-bar navigation--bar"></span>
+          </button>
+          <div class="mobile-brand">
+            <a class="navbar-brand mobile-brand__logo" href="#">
+              <img class="img-responsive" alt="Brand" src="./images/Adelphi-&-Co-logo.png">
+            </a>
+          </div>
+          <ul class="nav navbar-nav navbar-right navigation__list navigation__social--mobile">
+            <li>
+              <a href="https://www.facebook.com/adelphicoffee" class="navigation--link">
+                <img class="navigation--facebook" src="./images/Facebook-icon.png" alt="Adelphi & Co @ Facebook"/>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/adelphi_coffee/" class="navigation--link">
+                <img class="navigation--instagram" src="./images/Instagram-icon.png" alt="Adelphi & Co @ Instagram"/>
+              </a>
+            </li>
+          </ul>
         </div>
-        <!-- ./hero -->
+        <div class="desktop-brand">
+          <a class="navbar-brand" href="index.html">
+            <img class="img-responsive desktop-brand__logo" alt="Adelphi & Co Logo" src="./images/Adelphi-&-Co-logo.png">
+          </a>
+        </div>
 
-        <div class="container story" id="story">
-            <div class="row">
-                <div class="col-sm-12 col-md-6 story__details">
-                    <h1>Our
-                        <span>story</span>
-                    </h1>
-                    <p>
-                        The word "Adelphi" originated from the Greek meaning brothers as well as the bond between them.
-                        Adelphi &amp; Co have created an environment for people to meet and to enjoy the experience provided by the team.
-                        We appreciate our customers feedbacks and supports and would love to take this opportunity to thank everyone behind the Adelphi &amp; co project.
-                        <!-- The humble beginning of Adelphi & Co began with
+        <div class="collapse navbar-collapse" id="main-nav">
+          <ul class="nav navbar-nav navigation__list">
+            <li class="active">
+              <a href="index.html" class="navigation--link">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li>
+              <a href="about.html" class="navigation--link">About</a>
+            </li>
+            <li>
+              <a href="menu.html" class="navigation--link">Menu</a>
+            </li>
+            <li>
+              <a href="booking.html" class="navigation--link navigation--book">Book a seat</a>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right navigation__list navigation__social--desktop">
+            <li>
+              <a href="https://www.facebook.com/adelphicoffee" class="navigation--link">
+                <img class="navigation--facebook" src="./images/Facebook-icon.png" alt="Adelphi & Co @ Facebook"/>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/adelphi_coffee/" class="navigation--link">
+                <img class="navigation--instagram" src="./images/Instagram-icon.png" alt="Adelphi & Co @ Instagram"/>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+    </nav>
+    <!-- /nav -->
+
+    <div class="container hero">
+      <div class="jumbotron hero__jumbotron text-center">
+        <div class="hero__jumbotron--inner">
+          <h1 class="hero__jumbotron--title">A new
+            <span>experience</span>
+          </h1>
+          <p class="hero__jumbotron--subtitle">
+            A journey towards our flagship cafe.<br/>
+            A sip is memorable and a taste is beyond imagination.
+          </p>
+          <a data-scroll href="#story" class="hero--scrolldown">
+            <img src="images/right-arrow.svg" alt=""/>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- ./hero -->
+
+    <div class="container story" id="story">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 story__details">
+          <h1>Our
+            <span>story</span>
+          </h1>
+          <p>
+            The word "Adelphi" originated from the Greek meaning brothers as well as the bond between them. Adelphi &amp; Co have created an environment for people to meet and to enjoy the experience provided by the team. We appreciate our customers feedbacks and supports and would love to take this opportunity to thank everyone behind the Adelphi &amp; co project.
+            <!-- The humble beginning of Adelphi & Co began with
                         an espresso machine that was brought home one
                         day. Roy made a cup of coffee with it and
                         immediately found his passion, his partner, his
                         team and Adelphi & Co. -->
-                    </p>
-                    <a href="about.html">
-                        The untold story
-                        <span class="story--arrow-right">
-                            <img src="images/right-arrow--black.svg" alt=""/>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-sm-12 col-md-6 story__image">
-                    <img class="img-responsive" src="./images/adelphi-story-bg.jpg"/>
-                </div>
-            </div>
+          </p>
+          <a href="about.html">
+            The untold story
+            <span class="story--arrow-right">
+              <img src="images/right-arrow--black.svg" alt=""/>
+            </span>
+          </a>
         </div>
-        <!-- /.story -->
+        <div class="col-sm-12 col-md-6 story__image">
+          <img class="img-responsive" src="./images/adelphi-story-bg.jpg"/>
+        </div>
+      </div>
+    </div>
+    <!-- /.story -->
 
-        <div class="container experience">
-            <div class="row">
-                <div class="col-sm-12 col-md-12">
-                    <div class="owl-carousel">
-                        <div class="experience__slide">
-                            <img class="img-responsive" src="./images/adelphi-experience-bg1.jpg" alt=""/>
-                            <div class="col-sm-12 col-md-6 experience__slide--content">
-                                <h1 class="experience__slide--title">The
-                                    <span>experience</span>
-                                </h1>
-                                <p class="experience__slide--caption">
-                                    <!-- Our customers’ ever changing experience comes
+    <div class="container experience">
+      <div class="row">
+        <div class="col-sm-12 col-md-12">
+          <div class="owl-carousel">
+            <div class="experience__slide">
+              <img class="img-responsive" src="./images/adelphi-experience-bg1.jpg" alt=""/>
+              <div class="col-sm-12 col-md-6 experience__slide--content">
+                <h1 class="experience__slide--title">The
+                  <span>experience</span>
+                </h1>
+                <p class="experience__slide--caption">
+                  <!-- Our customers’ ever changing experience comes
                                     from our new menu we carefully prepared every
                                     month from our customers‘ feedbacks and
                                     comments as to serve the demand for better
                                     experience. Adelphi & Co’s ambience also plays a
                                     key role to differentiate our uniqueness from
                                     other cafes. -->
-                                    The vision is to make a positive impact to the community.
-                                    As Adelphi’s journey comes from the passion for food and the people throughout this journey, we have gain a fantastic
-                                    team and loyal customers which shared our same vision.
-                                    We hope to continue to grow in this journey and would appreciate those who join us along the way.
-                                </p>
-                            </div>
-                        </div>
-                        <!-- <div class="experience__slide">
-                            <img src="./images/adelphi-experience-bg1.jpg" alt=""/>
-                            <div class="col-sm-12 col-md-6 experience__slide--content">
-                                <h1 class="experience__slide--title">The
-                                    <span>experience</span>
-                                </h1>
-                                <p class="experience__slide--caption">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                </p>
-                            </div>
-                        </div> -->
-                        <!-- <div class="experience__slide">
-                            <img src="./images/adelphi-experience-bg1.jpg" alt=""/>
-                            <div class="col-sm-12 col-md-6 experience__slide--content">
-                                <h1 class="experience__slide--title">The
-                                    <span>experience</span>
-                                </h1>
-                                <p class="experience__slide--caption">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                </p>
-                            </div>
-                        </div> -->
-                        <!-- <div class="experience__slide">
-                            <img src="./images/adelphi-experience-bg1.jpg" alt=""/>
-                            <div class="col-sm-12 col-md-6 experience__slide--content">
-                                <h1 class="experience__slide--title">The
-                                    <span>experience</span>
-                                </h1>
-                                <p class="experience__slide--caption">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                </p>
-                            </div>
-                        </div> -->
-                    </div>
-                </div>
+                  The vision is to make a positive impact to the community. As Adelphi’s journey comes from the passion for food and the people throughout this journey, we have gain a fantastic team and loyal customers which shared our same vision. We hope to continue to grow in this journey and would appreciate those who join us along the way.
+                </p>
+              </div>
             </div>
+            <!-- <div class="experience__slide">
+                            <img src="./images/adelphi-experience-bg1.jpg" alt=""/>
+                            <div class="col-sm-12 col-md-6 experience__slide--content">
+                                <h1 class="experience__slide--title">The
+                                    <span>experience</span>
+                                </h1>
+                                <p class="experience__slide--caption">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
+                        </div> -->
+            <!-- <div class="experience__slide">
+                            <img src="./images/adelphi-experience-bg1.jpg" alt=""/>
+                            <div class="col-sm-12 col-md-6 experience__slide--content">
+                                <h1 class="experience__slide--title">The
+                                    <span>experience</span>
+                                </h1>
+                                <p class="experience__slide--caption">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
+                        </div> -->
+            <!-- <div class="experience__slide">
+                            <img src="./images/adelphi-experience-bg1.jpg" alt=""/>
+                            <div class="col-sm-12 col-md-6 experience__slide--content">
+                                <h1 class="experience__slide--title">The
+                                    <span>experience</span>
+                                </h1>
+                                <p class="experience__slide--caption">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
+                        </div> -->
+          </div>
         </div>
-        <!-- ./experience -->
-
-        <div class="container menu">
-            <div class="row">
-                <div class="col-sm-12 col-md-6 menu__details pull-right">
-                    <h1>Our
-                        <span>Menu</span>
-                    </h1>
-                    <p>
-                        Our menu is heavily inspired by cuisines around the world,
-                        however it is the one that made the greatest impact which we would
-                        like to share to our customers.
-                        The Adelphi menu is based on Modern European and Asian fusion in both the food and surroundings.
-                    </p>
-                    <p class="menu__link">
-                        Check out our
-                        <a href="menu.html">seasonal menu</a>
-                    </p>
-                </div>
-                <div class="col-sm-12 col-md-6 menu__image">
-                    <div class="menu__direct">
-                        <a href="menu.html">MENU</a>
-                    </div>
-                    <img class="img-responsive" src="./images/adelphi-menu-bg.jpg" alt=""/>
-                </div>
-            </div>
-        </div>
-        <!-- ./menu -->
-
-        <div class="container footer">
-            <footer>
-                <div class="row">
-                    <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-push-1 footer__add">
-                        <p>
-                            No.24, Damai Plaza<br/>
-                            Luyang, 88300 Kota Kinabalu<br/>
-                        </p>
-                        <p>
-                            T. +6089-746-876<br/>
-                            E. info@adelphiadnco.com<br/>
-                        </p>
-                        <p>
-                            Monday to Saturday</br />
-                        9am to 10pm<br/>
-                    </p>
-                </div>
-                <div class="col-xs-10 col-xs-offset-1 col-md-4 footer__info">
-                    <h2>Careers</h2>
-                    <p>
-                        For interested applicants, please forward your resume to
-                        <a href="mailto:careers@adelphiandco.com?Subject=Job%20aplication">careers@adelphiandco.com</a>
-                    </p>
-                    <p class="footer__copyright">
-                        &copy; 2016 Adelphi & Co. All Rights Reserved.
-                    </p>
-                </div>
-            </div>
-        </footer>
+      </div>
     </div>
+    <!-- ./experience -->
 
-    <script src="http://www.alvisng.me/adelphi_coffee/dist/js/jquery.js"></script>
-    <script src="http://www.alvisng.me/adelphi_coffee/dist/js/bootstrap.js"></script>
-    <script src="http://www.alvisng.me/adelphi_coffee/dist/js/owl.carousel.js"></script>
-    <script src="http://www.alvisng.me/adelphi_coffee/dist/js/smooth-scroll.js"></script>
-    <script src="http://www.alvisng.me/adelphi_coffee/dist/js/app.js"></script>
+    <div class="container menu">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 menu__details pull-right">
+          <h1>Our
+            <span>Menu</span>
+          </h1>
+          <p>
+            Our menu is heavily inspired by cuisines around the world, however it is the one that made the greatest impact which we would like to share to our customers. The Adelphi menu is based on Modern European and Asian fusion in both the food and surroundings.
+          </p>
+          <p class="menu__link">
+            Check out our
+            <a href="menu.html">seasonal menu</a>
+          </p>
+        </div>
+        <div class="col-sm-12 col-md-6 menu__image">
+          <div class="menu__direct">
+            <a href="menu.html">MENU</a>
+          </div>
+          <img class="img-responsive" src="./images/adelphi-menu-bg.jpg" alt=""/>
+        </div>
+      </div>
+    </div>
+    <!-- ./menu -->
+
+    <div class="container footer">
+      <footer>
+        <div class="row">
+          <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-push-1 footer__add">
+            <p>
+              No.24, Damai Plaza<br/>
+              Luyang, 88300 Kota Kinabalu<br/>
+            </p>
+            <p>
+              T. +6089-746-876<br/>
+              E. info@adelphiadnco.com<br/>
+            </p>
+            <p>
+              Monday to Saturday</br />
+            9am to 10pm<br/>
+          </p>
+        </div>
+        <div class="col-xs-10 col-xs-offset-1 col-md-4 footer__info">
+          <h2>Careers</h2>
+          <p>
+            For interested applicants, please forward your resume to
+            <a href="mailto:careers@adelphiandco.com?Subject=Job%20aplication">careers@adelphiandco.com</a>
+          </p>
+          <p class="footer__copyright">
+            &copy; 2016 Adelphi & Co. All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      },
+      i[r].l = 1 * new Date();
+      a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-75647582-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <script src="http://www.alvisng.me/adelphi_coffee/dist/js/jquery.js"></script>
+  <script src="http://www.alvisng.me/adelphi_coffee/dist/js/bootstrap.js"></script>
+  <script src="http://www.alvisng.me/adelphi_coffee/dist/js/owl.carousel.js"></script>
+  <script src="http://www.alvisng.me/adelphi_coffee/dist/js/smooth-scroll.js"></script>
+  <script src="http://www.alvisng.me/adelphi_coffee/dist/js/app.js"></script>
 </body>
 </html>
