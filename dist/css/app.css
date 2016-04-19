@@ -6303,6 +6303,16 @@ ul.masterpiece__menu--pills a {
 .grayed {
   opacity: 0.5; }
 
+.drinks__title {
+  text-align: left;
+  padding-top: 15px;
+  padding-bottom: 20px; }
+  @media only screen and (min-width: 768px) {
+    .drinks__title {
+      margin-left: 45px;
+      padding-top: 20px;
+      padding-bottom: 25px; } }
+
 .booking-cal {
   margin-top: 5%; }
 

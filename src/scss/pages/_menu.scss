@@ -102,3 +102,14 @@ ul.masterpiece__menu--pills {
 .grayed {
     opacity: 0.5;
 }
+
+.drinks__title {
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    @media only screen and (min-width: 768px) {
+        margin-left: 45px;
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+}
